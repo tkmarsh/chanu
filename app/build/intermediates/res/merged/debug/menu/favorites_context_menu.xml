@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/favorites_remove_board_menu"
+          android:title="@string/favorites_remove_board_menu"
+            />
+
+</menu>
+<!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/menu/favorites_context_menu.xml -->

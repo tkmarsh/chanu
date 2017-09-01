@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-w480dp/values-w480dp.xml -->
+    <eat-comment/>
+    <bool name="show_action_bar_title">true</bool>
+</resources>

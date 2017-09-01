@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/board_thread_goto_menu"
+          android:title="@string/thread_activity"
+            />
+
+</menu>
+<!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/menu/popular_context_menu.xml -->

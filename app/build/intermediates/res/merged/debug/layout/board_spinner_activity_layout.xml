@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The main content view -->
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/layout/board_spinner_activity_layout.xml -->

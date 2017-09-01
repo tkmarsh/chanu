@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/libs/gallery/build/intermediates/bundles/debug/res/values-sw320dp-port/values-sw320dp-port.xml -->
+    <eat-comment/>
+    <dimen name="action_bar_icon_padding_vertical">8dp</dimen>
+    <dimen name="action_button_padding_vertical">8dp</dimen>
+</resources>

@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/arrays.xml -->
+    <eat-comment/>
+    <string-array name="block_types">
+        <item>@string/block_type_text</item>
+        <item>@string/block_type_trip</item>
+        <item>@string/pref_user_name</item>
+        <item>@string/pref_user_email</item>
+        <item>@string/block_type_id</item>
+        <item>@string/thread_activity</item>
+    </string-array>
+    <string-array name="font_sizes">
+        <item>@string/font_size_tiny</item>
+        <item>@string/font_size_small</item>
+        <item>@string/font_size_medium</item>
+        <item>@string/font_size_large</item>
+        <item>@string/font_size_huge</item>
+    </string-array>
+    <string-array name="long_drawer_array">
+        <item>@string/board_all_boards</item>
+        <item>@string/board_latest</item>
+        <item>@string/board_popular</item>
+    </string-array>
+    <string-array name="long_drawer_array_footer">
+        <item>@string/settings_menu</item>
+        <item>@string/send_feedback_menu</item>
+    </string-array>
+    <string-array name="pref_autoload_images_entries">
+        <item>@string/pref_autoload_images_nothumbs</item>
+        <item>@string/pref_autoload_images_never</item>
+        <item>@string/pref_autoload_images_always</item>
+        <item>@string/pref_theme_auto</item>
+    </string-array>
+    <string-array name="pref_autoload_images_entry_values">
+        <item>@string/pref_autoload_images_nothumbs_value</item>
+        <item>@string/pref_autoload_images_never_value</item>
+        <item>@string/pref_autoload_images_always_value</item>
+        <item>@string/pref_autoload_images_auto_value</item>
+    </string-array>
+    <string-array name="pref_download_images_entries">
+        <item>@string/pref_download_images_standard</item>
+        <item>@string/pref_download_images_all_in_chanu_folder</item>
+        <item>@string/pref_download_images_per_board</item>
+        <item>@string/pref_download_images_per_thread</item>
+    </string-array>
+    <string-array name="pref_download_images_entry_values">
+        <item>@string/pref_download_images_standard_value</item>
+        <item>@string/pref_download_images_all_in_chanu_folder_value</item>
+        <item>@string/pref_download_images_per_board_value</item>
+        <item>@string/pref_download_images_per_thread_value</item>
+    </string-array>
+    <string-array name="pref_theme_entries">
+        <item>@string/pref_theme_light</item>
+        <item>@string/pref_theme_dark</item>
+        <!-- <item>@string/pref_theme_auto</item> -->
+    </string-array>
+    <string-array name="pref_theme_entry_values">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+        <item>@string/pref_theme_auto_value</item>
+    </string-array>
+    <string-array name="report_post_types">
+        <item>@string/report_post_type_rule</item>
+        <item>@string/report_post_type_illegal</item>
+        <item>@string/report_post_type_spam</item>
+    </string-array>
+    <string-array name="sort_order_types">
+        <item>@string/sort_order_bump_order</item>
+        <item>@string/sort_order_reply_count</item>
+        <item>@string/sort_order_image_count</item>
+        <item>@string/sort_order_creation_date</item>
+    </string-array>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <plurals name="make_albums_available_offline">
+    <item msgid="2171596356101611086" quantity="one">"Загрузка альбома для офлайн-доступа"</item>
+    <item msgid="4948604338155959389" quantity="other">"Загрузка альбомов для офлайн-доступа."</item>
+  </plurals>
+    <plurals name="number_of_albums_selected">
+    <item msgid="749292746814788132" quantity="zero">"Выбрано: %1$d"</item>
+    <item msgid="6184377003099987825" quantity="one">"Выбрано: %1$d"</item>
+    <item msgid="53105607141906130" quantity="other">"Выбрано: %1$d"</item>
+  </plurals>
+    <plurals name="number_of_groups_selected">
+    <item msgid="3466388370310869238" quantity="zero">"Выбрано: %1$d"</item>
+    <item msgid="5030162638216034260" quantity="one">"Выбрано: %1$d"</item>
+    <item msgid="3512041363942842738" quantity="other">"Выбрано: %1$d"</item>
+  </plurals>
+    <plurals name="number_of_items_selected">
+    <item msgid="2142579311530586258" quantity="zero">"Выбрано: %1$d"</item>
+    <item msgid="2478365152745637768" quantity="one">"Выбрано: %1$d"</item>
+    <item msgid="754722656147810487" quantity="other">"Выбрано: %1$d"</item>
+  </plurals>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/plurals.xml -->
+    <eat-comment/>
+    <plurals name="thread_activity_updated">
+        <item quantity="one">@string/plurals_thread_activity_udpdated_one</item>
+        <item quantity="other">@string/plurals_thread_actviity_updated_other</item>
+    </plurals>
+    <plurals name="thread_num_images_label">
+        <item quantity="one">@string/plurals_thread_num_images_label_one</item>
+        <item quantity="other">@string/plurals_thread_num_images_label_other</item>
+    </plurals>
+    <plurals name="thread_num_replies_label">
+        <item quantity="one">@string/plurals_thread_num_replies_label_one</item>
+        <item quantity="other">@string/plurals_thread_num_replies_label_other</item>
+    </plurals>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="3985447518557474672" name="Import">"Импорт"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="about_activity">О программе</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="5619154886080878023" name="activity_not_found">"Действие не поддерживается ни в одном приложении."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="ad_upgrade">Обновление до Pro</string>
+    <string name="ad_upgrade_sum">Поддержать разработку и добавление новых функций</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4271217504968243974" name="add_account">"Добавить аккаунт"</string>
+    <string msgid="7320787705180057947" name="albums">"Альбомы"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="anime_image_search_menu">Поиск изображения с помощью IQDB</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="5920657630303915195" name="aperture">"Диафрагма"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Chanu</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="1228925628357366957" name="appwidget_empty_text">"Нет фотографий"</string>
+    <string msgid="6410561146863700411" name="appwidget_title">"Фотогалерея"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="authorize_pass_cancelled">Авторизация отменена</string>
+    <string name="authorize_pass_error">Неудачная авторизация</string>
+    <string name="authorize_pass_no_response">Не удалось авторизировать, нет ответа</string>
+    <string name="authorize_pass_successful">Авторизовано</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4296941368722892821" name="auto">"Авто"</string>
+    <string msgid="1663414996270538748" name="autofix">"Авто"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="block_posts_menu">Заблокировать сообщение</string>
+    <string name="block_type_id">Идентификатор</string>
+    <string name="block_type_text">Текст</string>
+    <string name="block_type_trip">Tripcode</string>
+    <string name="blocklist_add_id_confirm">Добавить %1$s %2$s %3$s в черный список?</string>
+    <string name="blocklist_empty">Список блокировки пуст, посетите темы для выбора трипкода, имени, электронной почты или ID, которые вы хотите блокировать</string>
+    <string name="blocklist_no_types_found">Блокируемое имя, емейл, ID или трипкод не найдены</string>
+    <string name="blocklist_select_type">Выберите тип блока</string>
+    <string name="blocklist_title">Черный список</string>
+    <string name="blocklist_title_with_type">Черный список %1$s</string>
+    <string name="board_3">3DCG</string>
+    <string name="board_a">Аниме и манга</string>
+    <string name="board_activity">Доска</string>
+    <string name="board_add_to_favorites_menu">Добавить в избранное</string>
+    <string name="board_added_to_favorites">Доска добавлена в список для отслеживания</string>
+    <string name="board_adv">Советы</string>
+    <string name="board_all_boards">Все доски</string>
+    <string name="board_an">Животные и природа</string>
+    <string name="board_asp">Альтернативные виды спорта</string>
+    <string name="board_b">Обо всём</string>
+    <string name="board_biz">Бизнес и финансы</string>
+    <string name="board_c">Аниме/Милости</string>
+    <string name="board_cgl">Косплей и EGL</string>
+    <string name="board_ck">Еда и Кулинария</string>
+    <string name="board_cm">Милые/Мужчины</string>
+    <string name="board_co">Комиксы и Мультфильмы</string>
+    <string name="board_d">Хентай/альтернатива</string>
+    <string name="board_desc_3">Моделирование и ИЗО</string>
+    <string name="board_desc_a">Новеллы и видео</string>
+    <string name="board_desc_adv">Спроси и узнай</string>
+    <string name="board_desc_an">Домашние животные, растения</string>
+    <string name="board_desc_asp">Прыжки с парашютом</string>
+    <string name="board_desc_b">Анонимные анархисты</string>
+    <string name="board_desc_biz">Разбогатеть или умереть пытаясь</string>
+    <string name="board_desc_c">Waifus и другие</string>
+    <string name="board_desc_cgl">Костюмы и Лолита</string>
+    <string name="board_desc_ck">Кулинария и кухонные принадлежности</string>
+    <string name="board_desc_cm">Мужское аниме и манга</string>
+    <string name="board_desc_co">Западный стиль</string>
+    <string name="board_desc_d">Бондаж и щупальца</string>
+    <string name="board_desc_diy">Планы и проекты</string>
+    <string name="board_desc_e">Женское аниме, софткор</string>
+    <string name="board_desc_fa">Шкафы и наряды</string>
+    <string name="board_desc_fit">Набор массы</string>
+    <string name="board_desc_g">Гики и гаджеты</string>
+    <string name="board_desc_gd">Веб-сайты и логотипы</string>
+    <string name="board_desc_gif">Гифки без цензуры</string>
+    <string name="board_desc_h">Аниме секс и нагота</string>
+    <string name="board_desc_hc">Настоящий хардкор</string>
+    <string name="board_desc_hm">Мужчины, софткор</string>
+    <string name="board_desc_hr">Произведения искусства и сканы</string>
+    <string name="board_desc_i">Цифровая живопись</string>
+    <string name="board_desc_ic">Делись, оценивай, развивайся</string>
+    <string name="board_desc_int">Культура и язык</string>
+    <string name="board_desc_jp">Hello Kitty, J-pop</string>
+    <string name="board_desc_k">Оружие и военные</string>
+    <string name="board_desc_lgbt">Лесбиянки, геи, би, транс</string>
+    <string name="board_desc_lit">Книги и писательство</string>
+    <string name="board_desc_m">Человекообразные боевые роботы</string>
+    <string name="board_desc_mlp">Рай для Брони</string>
+    <string name="board_desc_mu">Фанаты, ненавистники и музыка</string>
+    <string name="board_desc_n">Поезда и велосипеды</string>
+    <string name="board_desc_o">Всё об автомобилях</string>
+    <string name="board_desc_out">Туризм и кемпинг</string>
+    <string name="board_desc_p">Содержание и критика</string>
+    <string name="board_desc_po">Вырезаем и складываем</string>
+    <string name="board_desc_pol">Политика в стиле 4chan</string>
+    <string name="board_desc_q">Модераторы</string>
+    <string name="board_desc_r">Запросы на изображения и видео</string>
+    <string name="board_desc_r9k">Без повторов</string>
+    <string name="board_desc_s">Женская эротика</string>
+    <string name="board_desc_s4s">Сумасшествие под контролем</string>
+    <string name="board_desc_sci">Научный рай</string>
+    <string name="board_desc_soc">Кумиры, \"как я вам\"</string>
+    <string name="board_desc_sp">Профессиональный спорт и команды</string>
+    <string name="board_desc_t">Обмен ссылками</string>
+    <string name="board_desc_tg">Доски и ролевые игры</string>
+    <string name="board_desc_toy">Фигуры и предметы коллекционирования</string>
+    <string name="board_desc_trv">Приключения</string>
+    <string name="board_desc_tv">Сериалы</string>
+    <string name="board_desc_u">Лесбийское аниме</string>
+    <string name="board_desc_v">Консоли и PC игры</string>
+    <string name="board_desc_vg">Длительные дискуссии</string>
+    <string name="board_desc_vp">Обучение, развитие</string>
+    <string name="board_desc_vr">Игры, вышедшие до 2000</string>
+    <string name="board_desc_w">Аниме и J-pop изображения</string>
+    <string name="board_desc_wg">HD-изображения (кроме аниме)</string>
+    <string name="board_desc_wsg">Смешные гифки</string>
+    <string name="board_desc_x">Пришельцы и привидения</string>
+    <string name="board_desc_y">Гомосексуальное аниме</string>
+    <string name="board_diy">Сделай сам</string>
+    <string name="board_e">Этти</string>
+    <string name="board_empty_all_boards">Невозможно загрузить доски</string>
+    <string name="board_empty_default">Невозможно загрузить доску</string>
+    <string name="board_empty_favorites">Добавьте доски для отслеживания\n\nПока что здесь пусто</string>
+    <string name="board_empty_images">Не удается загрузить последние изображения</string>
+    <string name="board_empty_latest">Не удается загрузить последние сообщения</string>
+    <string name="board_empty_popular">Не удается загрузить популярные темы</string>
+    <string name="board_empty_watchlist">Добавьте темы для наблюдения\n\nПока что здесь пусто</string>
+    <string name="board_fa">Мода</string>
+    <string name="board_favorites">Любимые доски</string>
+    <string name="board_fit">Фитнес</string>
+    <string name="board_g">Технология</string>
+    <string name="board_gd">Графический дизайн</string>
+    <string name="board_gif">Гифки</string>
+    <string name="board_h">Хентай</string>
+    <string name="board_hc">Хардкор</string>
+    <string name="board_hm">Красивые мужчины</string>
+    <string name="board_hr">Высокое разрешение</string>
+    <string name="board_i">Oekaki</string>
+    <string name="board_ic">Иллюстрации/критика</string>
+    <string name="board_int">Международная</string>
+    <string name="board_jp">Otaku</string>
+    <string name="board_k">Оружие</string>
+    <string name="board_last_updated">Обновлено %s</string>
+    <string name="board_latest">Последние сообщения</string>
+    <string name="board_latest_images">Последние изображения</string>
+    <string name="board_lgbt">ЛГБТ</string>
+    <string name="board_lit">Литература</string>
+    <string name="board_m">Mecha</string>
+    <string name="board_mlp">Пони</string>
+    <string name="board_mu">Музыка</string>
+    <string name="board_n">Транспорт</string>
+    <string name="board_no_connection_load">Невозможно загрузить доску, нет соединения</string>
+    <string name="board_no_threads_selected">Темы не выбраны</string>
+    <string name="board_not_added_to_favorites">Не удалось добавить доску в избранное</string>
+    <string name="board_o">Авто</string>
+    <string name="board_offline_refresh">Невозможно обновить, сеть недоступна</string>
+    <string name="board_out">На открытом воздухе</string>
+    <string name="board_p">Фотография</string>
+    <string name="board_po">Оригами</string>
+    <string name="board_pol">Политически некорректное</string>
+    <string name="board_popular">Популярные темы</string>
+    <string name="board_q">4chan, обратная связь</string>
+    <string name="board_r">Запросы</string>
+    <string name="board_r9k">РОБОТ9001</string>
+    <string name="board_rules_header">Правила доски</string>
+    <string name="board_rules_menu">Правила доски</string>
+    <string name="board_s">Сексуальные красивые женщины</string>
+    <string name="board_s4s">Что говорит 4chan</string>
+    <string name="board_sci">Наука и математика</string>
+    <string name="board_search_no_results">Нет тем по запросу «%1$s»</string>
+    <string name="board_search_results">Темы по запросу «%1$s»</string>
+    <string name="board_select">Выбрать доску</string>
+    <string name="board_soc">Встречи</string>
+    <string name="board_sp">Спорт</string>
+    <string name="board_t">Торренты</string>
+    <string name="board_tg">Традиционные игры</string>
+    <string name="board_thread_gallery_menu">Галерея</string>
+    <string name="board_toy">Игрушки</string>
+    <string name="board_trv">Путешествия</string>
+    <string name="board_tv">Телевидение и кино</string>
+    <string name="board_type_adult">Для взрослых</string>
+    <string name="board_type_creative">Креатив</string>
+    <string name="board_type_interests">Интересы</string>
+    <string name="board_type_japanese_culture">Японская культура</string>
+    <string name="board_type_misc">Разное</string>
+    <string name="board_type_other">Другое</string>
+    <string name="board_u">Юри</string>
+    <string name="board_v">Видео игры</string>
+    <string name="board_vg">Всё о видеоиграх</string>
+    <string name="board_vp">Покемон</string>
+    <string name="board_vr">Ретро игры</string>
+    <string name="board_w">Обои аниме</string>
+    <string name="board_watch">Отслеживаемые темы</string>
+    <string name="board_wg">Обои/общие</string>
+    <string name="board_wsg">Цензурные гифки</string>
+    <string name="board_x">Паранормальное</string>
+    <string name="board_y">Яой</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4521059045896269095" name="caching_label">"Кэширование..."</string>
+    <string msgid="916021826223448591" name="camera_connected">"Камера подключена."</string>
+    <string msgid="2100559901676329496" name="camera_disconnected">"Камера отключена."</string>
+    <string msgid="797463183863414289" name="camera_setas_wallpaper">"Обои"</string>
+    <string msgid="3637516880917356226" name="cancel">"Отмена"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="cancel_download_message">Отменить загрузку изображений?</string>
+    <string name="cancel_download_title">Загрузка изображения</string>
+    <string name="catalog_menu">Каталог</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="6407959065464291972" name="click_import">"Нажмите здесь, чтобы начать импорт"</string>
+    <string msgid="5585646033158453043" name="close">"Закрыть"</string>
+    <string msgid="7358770022173660511" name="confirm_delete">"Удалить"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_billing_msg">Подключение к Google Play...</string>
+    <string name="copy_text">Копировать</string>
+    <string name="copy_text_complete">Скопированный текст</string>
+    <string name="copy_text_menu">Скопировать текст сообщения</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7598378507763334041" name="crop">"Кадрировать"</string>
+    <string msgid="3427470284074377001" name="crop_action">"Кадрировать"</string>
+    <string msgid="521114301871349328" name="crop_label">"Обрезать фотографию"</string>
+    <string msgid="3400773981839556" name="crop_not_saved">"Изображение не сохранено."</string>
+    <string msgid="152200178986698300" name="crop_save_text">"ОК"</string>
+    <string msgid="1062612625032731770" name="crop_saved">"Изображение сохранено в папке \"Загрузки\"."</string>
+    <string msgid="8794037869706891710" name="crop_tooltip">"Чтобы кадрировать фото, перетащите маркеры"</string>
+    <string msgid="4173724489001742342" name="crossprocess">"Кроссобработка"</string>
+    <string msgid="2839695998251824487" name="delete">"Удалить"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="delete_post_cancelled">Удаление сообщения отменено</string>
+    <string name="delete_post_deleting">Сообщение удаляется...</string>
+    <string name="delete_post_deleting_image">Прикрепленное сообщение удаляется...</string>
+    <string name="delete_post_enter_password">Введите пароль для удаления</string>
+    <string name="delete_post_error">Не удалось удалить пост</string>
+    <string name="delete_post_no_response">Не удалось удалить пост, нет ответа</string>
+    <string name="delete_post_only_image">Удалить только изображение?</string>
+    <string name="delete_post_password_hint">Пароль для cообщения</string>
+    <string name="delete_post_response_error">Не удалось удалить сообщение, неизвестная ошибка</string>
+    <string name="delete_post_successful">Удаленное сообщение</string>
+    <string name="delete_post_successful_image">Изображение удалено</string>
+    <string name="delete_post_title">Удалить сообщение</string>
+    <string name="delete_post_title_confirm">Пароль для удаления</string>
+    <string name="delete_posts_menu">Удалить сообщение</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="3016729318096557520" name="description">"Описание"</string>
+    <string msgid="5758897506061723684" name="deselect_all">"Отменить все"</string>
+    <string msgid="8415120088556445230" name="details">"Сведения"</string>
+    <string msgid="3215779248094151255" name="details_hms">"%1$d:%2$02d:%3$02d"</string>
+    <string msgid="940634969189855292" name="details_ms">"%1$02d:%2$02d"</string>
+    <string msgid="2611396603977441273" name="details_title">"Элементов %1$d из %2$d:"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="dialog_add">Добавить</string>
+    <string name="dialog_added_to_watchlist">Добавлено в список наблюдения</string>
+    <string name="dialog_authorize">Авторизировать</string>
+    <string name="dialog_authorizing_pass">Идет авторизация...</string>
+    <string name="dialog_cancel">Отменить</string>
+    <string name="dialog_choose">Выбрать</string>
+    <string name="dialog_clean">Очистить</string>
+    <string name="dialog_clean_watchlist">Очистить \"мертвые\" темы?</string>
+    <string name="dialog_cleaned_watchlist">Список наблюдения очищен</string>
+    <string name="dialog_cleaning_watchlist">Очистка списка наблюдения...</string>
+    <string name="dialog_clear">Очистить</string>
+    <string name="dialog_clear_cache_confirm">Очистить все кэшированные данные? Это может занять несколько минут.</string>
+    <string name="dialog_clear_favorites">Очистить Избранное?</string>
+    <string name="dialog_clear_watchlist">Очистить список наблюдения?</string>
+    <string name="dialog_cleared_watchlist">Список наблюдения очищен</string>
+    <string name="dialog_color_picker_title">Выбрать цвет</string>
+    <string name="dialog_delete">Удалить</string>
+    <string name="dialog_delete_favorites_board">Удалить доску из избранного?</string>
+    <string name="dialog_delete_watchlist_thread">Удалить тему из списка наблюдения?</string>
+    <string name="dialog_deleted_from_watchlist">Удалено из списка наблюдения</string>
+    <string name="dialog_logout_pass">Отключение Pass...</string>
+    <string name="dialog_posting_reply">Отправляется...</string>
+    <string name="dialog_remove">Удалить</string>
+    <string name="dialog_report_post">Пожаловаться на сообщение</string>
+    <string name="dialog_reset_preferences">Настройки сброшены</string>
+    <string name="dialog_reset_preferences_confirm">Восстановить настройки по умолчанию?</string>
+    <string name="dialog_reset_title">Сбросить настройки</string>
+    <string name="dialog_set">Применить</string>
+    <string name="dialog_set_wallpaper">Установить как обои?</string>
+    <string name="dismiss">Закрыть</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="50396326708699797" name="documentary">"Документальные"</string>
+    <string msgid="217672440064436595" name="done">"Готово"</string>
+    <string msgid="1686409894518940990" name="doodle">"Подмалевок"</string>
+    <string msgid="2902117272374362915" name="doodle_tooltip">"Рисуйте на фото пальцем"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="download_all_images_complete">Загрузка завершена</string>
+    <string name="download_all_images_complete_detail">/%1$s/%2$d сохранено в галерею</string>
+    <string name="download_all_images_notice">Вы будете уведомлены по завершении скачивания</string>
+    <string name="download_all_images_to_gallery_menu">Скачать изображения</string>
+    <string name="download_images_to_gallery_menu">Скачать изображение</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8145893940788467106" name="duotone">"Двойной тон"</string>
+    <string msgid="8160058911218541616" name="duration">"Длительность"</string>
+    <string msgid="1502273844748580847" name="edit">"Изменить"</string>
+    <string msgid="3777746536831799890" name="edited_photo_bucket_name">"Измененные"</string>
+    <string msgid="4542880442593595494" name="empty_album">"Нет фото/видео"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="exif">Данные EXIF</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="3990163680281058826" name="exposure_time">"Выдержка"</string>
+    <string msgid="6205748523156172637" name="facelift">"Сияние"</string>
+    <string msgid="4412831806626044111" name="facetan">"Загар"</string>
+    <string msgid="8394392853646664505" name="fail_to_load">"Не загружено"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="favorites_cleared">Список избранного очищен</string>
+    <string name="favorites_not_cleared">Не удалось очистить Избранное</string>
+    <string name="favorites_not_deleted_board">Не удалось удалить доску из избранного</string>
+    <string name="favorites_pick_board">Выберите избранные доски</string>
+    <string name="favorites_remove_board_menu">Удалить из избранного</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8486169301588318915" name="file_size">"Размер файла"</string>
+    <string msgid="2644989991700022526" name="filllight">"Осветление"</string>
+    <string msgid="6037488646928998921" name="fisheye">"Рыбий глаз"</string>
+    <string msgid="2816779031261147723" name="flash">"Вспышка"</string>
+    <string msgid="1445443413822680010" name="flash_off">"Без вспышки"</string>
+    <string msgid="7891556231891837284" name="flash_on">"Со вспышкой"</string>
+    <string msgid="2357692401826287480" name="flip">"Отразить"</string>
+    <string msgid="2700943256714731737" name="flip_tooltip">"Чтобы отразить фото, перетащите его край"</string>
+    <string msgid="1291383769749877010" name="focal_length">"Фокус. расст."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="font_size_huge">Огромный</string>
+    <string name="font_size_large">Большой</string>
+    <string name="font_size_medium">Средний</string>
+    <string name="font_size_menu">Размер шрифта</string>
+    <string name="font_size_small">Маленький</string>
+    <string name="font_size_tiny">Мелкий</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8766337315709161215" name="free_space_format">"Свободно: <ns1:g id="BYTES">%s</ns1:g>"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="full_screen_image_search_error">Не удалось найти изображение</string>
+    <string name="full_screen_image_search_not_found">Не удалось найти изображение для поиска</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="259405922673466798" name="gadget_title">"Рамка фотографии"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="global_rules_menu">Глобальные правила</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7487585304579789098" name="grain">"Зернистость"</string>
+    <string msgid="7641563843060945228" name="grayscale">"Ч/Б"</string>
+    <string msgid="4308299657902209357" name="group_by">"Группировать по"</string>
+    <string msgid="1532818636053818958" name="group_by_album">"По альбомам"</string>
+    <string msgid="1566351636227274906" name="group_by_faces">"По людям"</string>
+    <string msgid="316641628989023253" name="group_by_location">"По местоположению"</string>
+    <string msgid="153766174950394155" name="group_by_size">"По размеру"</string>
+    <string msgid="3568731317210676160" name="group_by_tags">"По тегам"</string>
+    <string msgid="9046168567717963573" name="group_by_time">"По времени"</string>
+    <string msgid="3648885449443787772" name="height">"Высота"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="hide">Скрыть</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="3902653944386623972" name="highlight">"Блики"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="image_search_menu">Искать с помощью Tineye</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="3875040287486199999" name="import_complete">"Импорт завершен"</string>
+    <string msgid="8497942380703298808" name="import_fail">"Сбой импорта"</string>
+    <string msgid="5028296664327335940" name="iso">"ISO"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="jump_menu">Перейти</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7038208555304563571" name="loading">"Идет загрузка…"</string>
+    <string msgid="928195413034552034" name="loading_account">"Загрузка аккаунта..."</string>
+    <string msgid="5990741970574295950" name="loading_failure">"Не удалось загрузить фото"</string>
+    <string msgid="1200894415793838191" name="loading_image">"Загрузка изображения..."</string>
+    <string msgid="4013492720121891585" name="loading_video">"Загрузка видео…"</string>
+    <string msgid="3432705876921618314" name="location">"Местоположение"</string>
+    <string msgid="6649297994083130305" name="locations">"Места"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="logout_pass_cancelled">Отключение pass отменено</string>
+    <string name="logout_pass_error">Не удалось выйти</string>
+    <string name="logout_pass_no_response">Невозможно выйти, сервер не отвечает</string>
+    <string name="logout_pass_successful">Pass успешно отключен</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="1270032154357186736" name="lomoish">"Ломо"</string>
+    <string msgid="5157950985488297112" name="make_available_offline">"Сделать доступным офлайн"</string>
+    <string msgid="7921835498034236197" name="maker">"Автор"</string>
+    <string msgid="6608905477477607865" name="manual">"Вручную"</string>
+    <string msgid="8024168704337990470" name="mimetype">"Тип MIME"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="mobile_profile_fetch_dead_thread">Тема \"умерла\"</string>
+    <string name="mobile_profile_health_status">Не удалось загрузить сеть %1$s</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8240207064064337366" name="model">"Модель"</string>
+    <string msgid="3526526872644898229" name="movie_view_label">"Видеопроигрыватель"</string>
+    <string msgid="2554690102655855657" name="multiface_crop_help">"Нажмите на лицо, чтобы начать."</string>
+    <string msgid="1985508917342811252" name="negative">"Негатив"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="network_profile_health_bad">Медленное подключение к Интернету</string>
+    <string name="new_thread_menu">Новая тема</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="5595408018304861875" name="no">"Нет"</string>
+    <string msgid="4111744447491690896" name="no_albums_alert">"Нет доступных альбомов."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="no_connection_profile">Автономный режим</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7164037617297293668" name="no_connectivity">"Не удалось найти все места из-за проблем с подключением."</string>
+    <string msgid="4043624857489331676" name="no_location">"Место не указано"</string>
+    <string msgid="5315144556325243400" name="no_such_item">"Элемент не найден."</string>
+    <string msgid="284723185546429750" name="no_thumbnail">"Нет уменьшенного изображения"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="offline_board_view_menu">Изображения доски</string>
+    <string name="offline_chan_view_menu">Изображения всех досок</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4958327983165245513" name="orientation">"Ориентация"</string>
+    <string msgid="4725740395885105824" name="path">"Путь"</string>
+    <string msgid="4114003823747292747" name="people">"Люди"</string>
+    <string msgid="3494363661299484657" name="photo_saved">"Фотография сохранена в альбоме \"<ns1:g id="ALBUM_NAME">%s</ns1:g>\""</string>
+    <string msgid="4738587346771969697" name="photoeditor_name">"Фотостудия"</string>
+    <string msgid="1497721615718760613" name="picasa_posts">"Записи"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="play_thread_menu">Играть тему</string>
+    <string name="play_thread_stop_menu">Остановить проигрышь темы</string>
+    <string name="plurals_thread_activity_udpdated_one">Новых комментариев : %1$d</string>
+    <string name="plurals_thread_actviity_updated_other">Новых комментариев: %1$d</string>
+    <string name="plurals_thread_num_images_label_one">КАРТИНКА</string>
+    <string name="plurals_thread_num_images_label_other">КАРТИНКИ</string>
+    <string name="plurals_thread_num_replies_label_one">КОММЕНТАРИЙ</string>
+    <string name="plurals_thread_num_replies_label_other">КОММЕНТАРИИ</string>
+    <string name="post_reply_add_image">Прикрепить изображение к новой теме</string>
+    <string name="post_reply_add_text_or_image">Добавить комментарий или изображения</string>
+    <string name="post_reply_added_image">Изображение прикреплено к сообщению</string>
+    <string name="post_reply_all_menu">Ответить</string>
+    <string name="post_reply_all_quote_menu">Цитируемый ответ</string>
+    <string name="post_reply_board_requires_subject">Добавить тему</string>
+    <string name="post_reply_cancelled">Отменено</string>
+    <string name="post_reply_captcha_error">Не удалось загрузить captcha</string>
+    <string name="post_reply_delete_hint">Удаление изображения</string>
+    <string name="post_reply_email_hint">Адрес электронной почты (необязательно)</string>
+    <string name="post_reply_enter_captcha">Введите captcha</string>
+    <string name="post_reply_error">Не удалось опубликовать</string>
+    <string name="post_reply_name_hint">Имя (необязательно)</string>
+    <string name="post_reply_new_thread_error">Не удалось создать новую тему</string>
+    <string name="post_reply_no_board">Невозможно отправить, неизвестная доска</string>
+    <string name="post_reply_no_image">Не удается загрузить изображение</string>
+    <string name="post_reply_no_image_rotate">Не мог повернуть изображение</string>
+    <string name="post_reply_no_load_gallery_image">Не удалось загрузить галерею изображений</string>
+    <string name="post_reply_no_response">Не удалось опубликовать, нет ответа</string>
+    <string name="post_reply_pass_disable_menu">Отключить 4chan pass</string>
+    <string name="post_reply_pass_disabled_text">4chan Pass отключен</string>
+    <string name="post_reply_pass_enable_menu">Авторизировать 4chan pass</string>
+    <string name="post_reply_pass_enable_text">Обойти капчу with 4chan Pass</string>
+    <string name="post_reply_pass_enabled_text">Обход капчи с 4chan Pass</string>
+    <string name="post_reply_pass_mobile_text">4chan Pass не доступен в сотовой сети</string>
+    <string name="post_reply_pass_no_connection_text">Не могу отправить в то время как соединение не работает</string>
+    <string name="post_reply_password_hint">Пароль (необязательно)</string>
+    <string name="post_reply_password_info_detail">Пароль представляет собой случайное число, которое позволяет Вам удалить сообщение позже.         Этот номер был создан для Вас, но вы можете изменить его, если пожелаете.</string>
+    <string name="post_reply_password_info_hint">Информация об использовании пароля</string>
+    <string name="post_reply_picture_menu">Прикрепить изображение</string>
+    <string name="post_reply_posted_reply">Отправлено</string>
+    <string name="post_reply_posted_thread">Тема создана</string>
+    <string name="post_reply_recaptcha_hint">reCAPTCHA Challenge (обязательно)</string>
+    <string name="post_reply_reload_captcha_hint">Перезагрузка Captcha</string>
+    <string name="post_reply_response_error">Не удалось отправить сообщение, неизвестная ошибка</string>
+    <string name="post_reply_sage_hint">Сажа</string>
+    <string name="post_reply_search_hint">Поиск изображений</string>
+    <string name="post_reply_send">Отправить</string>
+    <string name="post_reply_share_error">Chanu не может получить изображение</string>
+    <string name="post_reply_spoiler">Изображение-спойлер</string>
+    <string name="post_reply_subject_hint">Тема (необязательно)</string>
+    <string name="post_reply_subject_hint_required">Тема (обязательно)</string>
+    <string name="post_reply_text_hint">Комментарий (необязательно)</string>
+    <string name="post_reply_text_hint_required">Комментарий (обязательно)</string>
+    <string name="post_reply_title">Ответ на сообщение</string>
+    <string name="post_reply_web_menu">Добавление веб-изображения</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4139212359561383385" name="posterize">"Постеризация"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="pref_about_application_category">Приложение</string>
+    <string name="pref_about_application_gplus">Посетите нас</string>
+    <string name="pref_about_application_gplus_sum">Присоединяйтесь к сообществу Chanu на Google Plus</string>
+    <string name="pref_about_application_rate">Оцените нас</string>
+    <string name="pref_about_application_rate_sum">Оценить Chanu на Google Play</string>
+    <string name="pref_about_application_version">Версия %1$s</string>
+    <string name="pref_about_application_version_sum">Выпущено %1$s</string>
+    <string name="pref_about_contact_us">Свяжитесь с нами</string>
+    <string name="pref_about_data_4chan_sum">Информация получена автоматически через API 4chan</string>
+    <string name="pref_about_data_category">Использовано</string>
+    <string name="pref_about_developer_category">Информация об оплате</string>
+    <string name="pref_about_developer_chanapps">Chanapps Software</string>
+    <string name="pref_about_developer_chanapps_sum">Посмотреть наши предложения</string>
+    <string name="pref_about_send_email">Отправить Email</string>
+    <string name="pref_about_store_chanapps">Chanapps магазин</string>
+    <string name="pref_about_store_chanapps_sum">Купить футболку Chanu</string>
+    <string name="pref_about_translations_category">Переводы</string>
+    <string name="pref_about_translations_de">немецкий</string>
+    <string name="pref_advanced_category">Расширенные настройки</string>
+    <string name="pref_advanced_category_summ">Изменить параметры</string>
+    <string name="pref_autoload_images_always">Всегда</string>
+    <string name="pref_autoload_images_never">Никогда</string>
+    <string name="pref_autoload_images_nothumbs">Нет миниатюры</string>
+    <string name="pref_autoload_images_summary">Никогда, всегда или автоматически (основываясь на скорости соединения)</string>
+    <string name="pref_autoload_images_title">Автоматически загружать изображения темы</string>
+    <string name="pref_automatically_manage_watchlist">Автоматическое управление списком наблюдения</string>
+    <string name="pref_automatically_manage_watchlist_summ_off">Добавлять и удалять темы вручную</string>
+    <string name="pref_automatically_manage_watchlist_summ_on">Автоматическое добавление и удаление тем</string>
+    <string name="pref_autoupdate_threads">Автоматическое обновление темы</string>
+    <string name="pref_autoupdate_threads_summ_off">Не обновлять темы автоматически</string>
+    <string name="pref_autoupdate_threads_summ_on">Обновлять темы каждые 30 секунд</string>
+    <string name="pref_background_data">Фоновый режим</string>
+    <string name="pref_background_data_summ_off">Отключить фоновую загрузку в сотовой сети</string>
+    <string name="pref_background_data_summ_on">Фоновая загрузка в сотовой сети</string>
+    <string name="pref_blocklist_button_summ">Фильтр темы и сообщения</string>
+    <string name="pref_cache_category">Кэш</string>
+    <string name="pref_cache_category_summ">Размер памяти для хранения тем и изображений</string>
+    <string name="pref_cache_size">Размер кэша</string>
+    <string name="pref_cache_size_summ">Изменить размер кеша</string>
+    <string name="pref_clean_watchlist">Удалить \"умершие\" темы</string>
+    <string name="pref_clear_cache">Очистить кэш</string>
+    <string name="pref_clear_cache_already_running">Кеш уже очищается, Вы будете уведомлены по окончании</string>
+    <string name="pref_clear_cache_error">Не удалось очистить кэш</string>
+    <string name="pref_clear_cache_notification_title">Состояние Chanu кэша</string>
+    <string name="pref_clear_cache_pre_execute">Очистка кеша, вы будете уведомлены по окончании</string>
+    <string name="pref_clear_cache_pre_execute_no_notify">Очистка кеша, popup-уведомление отобразится по завершении</string>
+    <string name="pref_clear_cache_success">Успешно очищен кэш</string>
+    <string name="pref_clear_cache_summ">Удалить все кэшированные данные и изображения</string>
+    <string name="pref_clear_favorites">Очистить Избранное</string>
+    <string name="pref_clear_watchlist">Очистить список наблюдения</string>
+    <string name="pref_download_images_all_in_chanu_folder">Все в папку \'Chanu\'</string>
+    <string name="pref_download_images_per_board">По доскам (board_a)</string>
+    <string name="pref_download_images_per_thread">По темам (a_1234567)</string>
+    <string name="pref_download_images_standard">В \'Chanu\' поодиночке, целую тему - в отдельную папку</string>
+    <string name="pref_download_images_summary">Определяет порядок изображений в галерее</string>
+    <string name="pref_download_images_title">Организовать скачанные изображения</string>
+    <string name="pref_download_location">Место загрузки</string>
+    <string name="pref_download_location_error">Не удалось задать каталог загрузки</string>
+    <string name="pref_download_location_set">Папка для загрузки %1$s</string>
+    <string name="pref_download_location_summ">Нажмите, чтобы изменить</string>
+    <string name="pref_download_nomedia">Скрыть загрузки</string>
+    <string name="pref_download_nomedia_summ_off">Загруженные изображения видны в галерее</string>
+    <string name="pref_download_nomedia_summ_on">Скачанные изображение скрыты из галереи</string>
+    <string name="pref_hide_last_replies">Скрыть последние ответы</string>
+    <string name="pref_hide_post_numbers">Номера сообщений</string>
+    <string name="pref_hide_post_numbers_summ_off">Номера сообщений отображаются постоянно</string>
+    <string name="pref_hide_post_numbers_summ_on">Номера сообщений скрыты кроме /b/</string>
+    <string name="pref_hide_post_numbers_turn_off">Показать номер сообщения.</string>
+    <string name="pref_hide_post_numbers_turn_on">Скрыть номер сообщения.</string>
+    <string name="pref_notifications">Уведомления</string>
+    <string name="pref_notifications_summ_off">Выкл</string>
+    <string name="pref_notifications_summ_on">Включено</string>
+    <string name="pref_pass_category">4chan Pass</string>
+    <string name="pref_pass_category_summ">Маркер и ПИН-код для обхода captcha</string>
+    <string name="pref_pass_enabled">Включено</string>
+    <string name="pref_pass_enabled_summ_off">Pass отключен</string>
+    <string name="pref_pass_enabled_summ_on">Использовать пароль для обхода captcha</string>
+    <string name="pref_pass_pin">PIN-КОД</string>
+    <string name="pref_pass_pin_hint">Введите PIN</string>
+    <string name="pref_pass_pin_invalid">Недопустимый PIN</string>
+    <string name="pref_pass_pin_summ">Ваш 6-значный пароль 4chan pass</string>
+    <string name="pref_pass_purchase_hint">Нет пароля? Приобретите его.</string>
+    <string name="pref_pass_token">Маркер</string>
+    <string name="pref_pass_token_hint">Введите маркер</string>
+    <string name="pref_pass_token_invalid">Недопустимый маркер</string>
+    <string name="pref_pass_token_summ">Ваш 10-значный 4chan pass token</string>
+    <string name="pref_prokey_category">Prokey</string>
+    <string name="pref_reset_to_defaults">Сброс</string>
+    <string name="pref_reset_to_defaults_summ">Восстановление всех параметров их настроек по умолчанию</string>
+    <string name="pref_share_image_url">Поделиться картинкой через URL</string>
+    <string name="pref_share_image_url_summ_off">Поделиться файлом картинки вемсто URL</string>
+    <string name="pref_share_image_url_summ_on">Поделиться URL вместо файла картинки</string>
+    <string name="pref_show_nsfw_boards">Нецензурные доски</string>
+    <string name="pref_show_nsfw_boards_summ_detail">
+        Доски, считающиеся нецензурными, по умолчанию скрыты. Эти доски проходят модерацию, тем не менее они могут содержать оскорбительные материалы. Если Вам еще не исполнилось 18 лет, или по закону Вы не можете просматривать содержание соответствующих досок, не отмечайте эту опцию.</string>
+    <string name="pref_show_nsfw_boards_summ_message">
+        Доски, считающиеся нецензурными, по умолчанию скрыты. Эти доски проходят модерацию, тем не менее они могут содержать оскорбительные материалы. Вам запрещается включать эту опцию, если Вам еще не исполнилось 18 лет, или по закону Вы не можете просматривать содержание соответствующих досок.</string>
+    <string name="pref_show_nsfw_boards_summ_neg">Отключить (по умолчанию)</string>
+    <string name="pref_show_nsfw_boards_summ_off">Нецензурные доски скрыты (по умолчанию)</string>
+    <string name="pref_show_nsfw_boards_summ_on">В настоящее время показаны все доски</string>
+    <string name="pref_show_nsfw_boards_summ_pos">Включить</string>
+    <string name="pref_theme_auto">Автоматически</string>
+    <string name="pref_theme_dark">Тёмная</string>
+    <string name="pref_theme_light">Светлая</string>
+    <string name="pref_theme_summary">Светлая, темная или автоматеческая опции для адаптивного освещения</string>
+    <string name="pref_theme_title">Тема</string>
+    <string name="pref_use_abbrev_boards">Сокращенные названия досок</string>
+    <string name="pref_use_fast_scroll">Быстрое прокручивание</string>
+    <string name="pref_use_friendly_ids">Использование дружественных идентификаторы</string>
+    <string name="pref_use_friendly_ids_summ_off">Пост идентификаторы остаются неизменными</string>
+    <string name="pref_use_friendly_ids_summ_on">ID сообщений читаемы</string>
+    <string name="pref_use_https">Безопасность</string>
+    <string name="pref_use_https_summ_off">Не использовать HTTPS для всех соединений</string>
+    <string name="pref_use_https_summ_on">Использование HTTPS для всех подключений</string>
+    <string name="pref_use_volume_scroll">Прокрутка клавишами громкости</string>
+    <string name="pref_user_category">Информация о пользователе</string>
+    <string name="pref_user_email">Емейл</string>
+    <string name="pref_user_email_summ">Использовать как емейл при отправке сообщений</string>
+    <string name="pref_user_name">Имя</string>
+    <string name="pref_user_name_summ">Использовать как подпись в сообщениях</string>
+    <string name="pref_user_password">Пароль</string>
+    <string name="pref_user_password_summ">Использовать как пароль для удаления</string>
+    <string name="pref_view_options">Опции отображения</string>
+    <string name="pref_view_options_summ">Изменить внешний вид</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8722939570307386071" name="process_caching_requests">"Обработка запросов на кэширование"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/actionBarPullToRefresh/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">Потяните для обновления…</string>
+    <string name="pull_to_refresh_refreshing_label">Загрузка…</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="purchase_error">Не удалось провести оплату, попробуйте позже</string>
+    <string name="purchase_menu">Покупка</string>
+    <string name="purchase_success">Объявления отключены</string>
+    <string name="quote">Цитата</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4958448806369928239" name="redeye">"Красные глаза"</string>
+    <string msgid="9112774042113471358" name="redeye_tooltip">"Нажмите для устранения эффекта красных глаз"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="refresh_board_menu">Обновить</string>
+    <string name="refresh_favorites">Обновление доски на заднем плане...</string>
+    <string name="refresh_watchlist">Фоновое обновление тем...</string>
+    <string name="report_post">Пожаловаться</string>
+    <string name="report_post_bug_warning">Из-за ограничений 4chan, будет отправлена только жалоба на пост %1$s</string>
+    <string name="report_post_cancelled">Жалоба отменена</string>
+    <string name="report_post_error">Невозможно пожаловаться</string>
+    <string name="report_post_no_response">Невозможно пожаловатся, нет ответа</string>
+    <string name="report_post_reporting">Жалоба отправляется...</string>
+    <string name="report_post_select_type">Выберите тип жалобы</string>
+    <string name="report_post_successful">Жалоба отправлена</string>
+    <string name="report_post_title_type">Причина для жалобы</string>
+    <string name="report_post_type_illegal">Противоправный контент</string>
+    <string name="report_post_type_rule">Нарушение правил</string>
+    <string name="report_post_type_spam">Реклама/спам</string>
+    <string name="report_posts_menu">Пожаловаться на сообщение</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="5184414518126703481" name="resume_playing_message">"Продолжить воспроизведение с %s?"</string>
+    <string msgid="5471008499835769292" name="resume_playing_restart">"Начать с начала"</string>
+    <string msgid="3847915469173852416" name="resume_playing_resume">"Продолжить воспроизведение"</string>
+    <string msgid="8996677350649355013" name="resume_playing_title">"Продолжение просмотра видео"</string>
+    <string msgid="6607597269792373083" name="rotate">"Поворот"</string>
+    <string msgid="5888273317282539839" name="rotate_left">"Повернуть влево"</string>
+    <string msgid="6776325835923384839" name="rotate_right">"Повернуть вправо"</string>
+    <string msgid="7008602969130734229" name="rotate_tooltip">"Чтобы повернуть фото, перетащите его край"</string>
+    <string msgid="8621322012271169931" name="saturation">"Насыщенность"</string>
+    <string msgid="5516670392524294967" name="save">"ГОТОВО"</string>
+    <string msgid="6857408774183654970" name="save_error">"Изображение не сохранено."</string>
+    <string msgid="3125109368779997862" name="save_photo">"Сохранить изменения?"</string>
+    <string msgid="8596600582621364077" name="saving_failure">"Не удалось сохранить фото"</string>
+    <string msgid="7270334453636349407" name="saving_image">"Сохранение картинки..."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="scroll_to_bottom_menu">Перейти вниз</string>
+    <string name="scroll_to_top_menu">Перейти начала</string>
+    <string name="search_hint">Введите текст</string>
+    <string name="search_results_title">Результаты поиска</string>
+    <string name="search_title">Поиск</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4632641262236697235" name="select_album">"Выберите альбомы"</string>
+    <string msgid="3403283025220282175" name="select_all">"Выбрать все"</string>
+    <string msgid="9090385962030340391" name="select_group">"Выберите группы"</string>
+    <string msgid="7841406150484742140" name="select_image">"Выберите фото"</string>
+    <string msgid="2257529413100472599" name="select_item">"Выберите объекты"</string>
+    <string msgid="4859510992798615076" name="select_video">"Выберите видео"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="send_feedback_menu">Отправить отзыв</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7978093531824705601" name="sepia">"Сепия"</string>
+    <string msgid="7235465319919457488" name="sequence_in_set">"%1$d из %2$d:"</string>
+    <string msgid="3636764710790507868" name="set_as">"Установить как"</string>
+    <string msgid="2331476809308010401" name="set_image">"Установить картинку как"</string>
+    <string msgid="4581863582996336783" name="set_label_all_albums">"Все альбомы"</string>
+    <string msgid="6698133661656266702" name="set_label_local_albums">"Офлайн-альбомы"</string>
+    <string msgid="1283513183744896368" name="set_label_mtp_devices">"MTP-устройства"</string>
+    <string msgid="5356258354953935895" name="set_label_picasa_albums">"Альбомы Picasa"</string>
+    <string msgid="1534847740615665736" name="settings">"Настройки"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="settings_menu">Настройки</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8235188588101973090" name="shadow">"Затенение"</string>
+    <string msgid="3619042788254195341" name="share">"Отправить"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="share_image">Предоставить общий доступ</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="8449662378104403230" name="sharpen">"Резкость"</string>
+    <string msgid="4780647751652596980" name="show_all">"Изображения и видео"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="show_hidden_threads">Показать скрытые темы</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7263218480867672653" name="show_images_only">"Только изображения"</string>
+    <string msgid="6157544221201750980" name="show_on_map">"Показать на карте"</string>
+    <string msgid="3850394623678871697" name="show_videos_only">"Только видео"</string>
+    <string msgid="5324398253474104087" name="size_above">"<ns1:g id="SIZE">%1$s</ns1:g> или более"</string>
+    <string msgid="2074956730721942260" name="size_below">"<ns1:g id="SIZE">%1$s</ns1:g> или менее"</string>
+    <string msgid="8779660840898917208" name="size_between">"<ns1:g id="MIN_SIZE">%1$s</ns1:g> – <ns1:g id="MAX_SIZE">%2$s</ns1:g>"</string>
+    <string msgid="4355906903247112975" name="slideshow">"Слайд-шоу"</string>
+    <string msgid="6915963319933437083" name="slideshow_dream_name">"Слайд-шоу"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="sort_order_bump_order">Количество \"бампов\"</string>
+    <string name="sort_order_creation_date">Дата создания</string>
+    <string name="sort_order_image_count">Количество изображений</string>
+    <string name="sort_order_menu">Порядок сортировки</string>
+    <string name="sort_order_reply_count">Количество ответов</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="5217801513491493491" name="straighten">"Выравнивание"</string>
+    <string msgid="4846317027139212339" name="straighten_tooltip">"Чтобы выровнять фото, перетащите его"</string>
+    <string msgid="7280111806675169992" name="switch_to_camera">"Переключиться на камеру"</string>
+    <string msgid="2218733298953719785" name="sync_album_error">"Не удалось загрузить фотографии. Повторите попытку позже."</string>
+    <string msgid="9016732535181154028" name="sync_album_set_error">"Не удалось загрузить альбомы. Повторите попытку позже."</string>
+    <string msgid="8522572542111169872" name="sync_picasa_albums">"Обновить"</string>
+    <string msgid="5539648765482935955" name="tags">"Теги"</string>
+    <string msgid="1607987938521534517" name="temperature">"Тепло"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="thread_activity">Тема</string>
+    <string name="thread_added_to_watchlist">Тема добавлена в список наблюдения</string>
+    <string name="thread_backlinks">Ссылки</string>
+    <string name="thread_closed">Невозможно обновить, тема закрыта</string>
+    <string name="thread_context_select">Готово</string>
+    <string name="thread_couldnt_create_pager">Не удалось создать пейджер</string>
+    <string name="thread_couldnt_download_image">Не удалось загрузить изображение</string>
+    <string name="thread_country_flag">Флаг страны</string>
+    <string name="thread_dead">Невозможно обновить, тема не существует</string>
+    <string name="thread_deleted_from_watchlist">Тема удалена из списка наблюдения</string>
+    <string name="thread_image_download_error">Ошибка скачивания изображений</string>
+    <string name="thread_is_closed">ЗАКРЫТО</string>
+    <string name="thread_is_sticky">ЗАКРЕПЛЕНО</string>
+    <string name="thread_no_posts_selected">Сообщения не выбраны</string>
+    <string name="thread_no_start_play">Нельзя начать проигрышь, уже на конце темы</string>
+    <string name="thread_not_added_to_watchlist">Невозможно добавить тему в список наблюдения</string>
+    <string name="thread_not_found">Тема не найдена, показана первая тема</string>
+    <string name="thread_post">Сообщение</string>
+    <string name="thread_post_collapse_button">Свернуть</string>
+    <string name="thread_post_expand_button">Развернуть</string>
+    <string name="thread_post_image">Изображение темы</string>
+    <string name="thread_post_image_expanded">Увеличенное изображение темы</string>
+    <string name="thread_replies">Ответы</string>
+    <string name="thread_same_id">Тот же ID</string>
+    <string name="thread_search_no_results">Нет сообщений по запросу «%1$s»</string>
+    <string name="thread_search_results">Сообщения по запросу «%1$s»</string>
+    <string name="thread_watchlist_cleared">Список наблюдения очищен</string>
+    <string name="thread_watchlist_not_cleared">Не удалось очистить список наблюдения</string>
+    <string name="thread_watchlist_not_deleted_thread">Не удалось удалить тему из списка наблюдения</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="1367953006052876956" name="time">"Время"</string>
+    <string msgid="2023033894889499219" name="times">"По времени"</string>
+    <string msgid="154435943863418434" name="tint">"Оттенок"</string>
+    <string msgid="7622928349908052569" name="title">"Название"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="translate">Перевести пост</string>
+    <string name="translate_no_text">Текст для перевода не найден</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="2184754031896160755" name="try_to_set_local_album_available_offline">"Это содержание хранится на устройстве и доступно в автономном режиме."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="tutorial_all">Chanu - это браузер для 4chan, форума, где люди со всего мира делятся изображениями и обсуждают их.\n\nДля начала выберите доску!</string>
+    <string name="tutorial_intro_desc">Добро пожаловать</string>
+    <string name="undo">Отменить правку</string>
+    <string name="undo_all">Отменить все правки</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="1125768433254329136" name="unit_mm">"мм"</string>
+    <string msgid="7281481064509590402" name="untagged">"Без тегов"</string>
+    <string msgid="7003051631792271009" name="video_err">"Не удалось воспроизвести видео."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="view_as_grid_menu">Отобразить в виде сетки</string>
+    <string name="view_as_list_menu">Просмотр в виде списка</string>
+    <string name="view_image_gallery_menu">Изображения темы</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="7648125924662648282" name="vignette">"Виньетка"</string>
+    <string msgid="140165383777262070" name="wallpaper">"Установка обоев..."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="watch_remove_thread_menu">Удалить из списка наблюдения</string>
+    <string name="watch_thread_menu">Отслеживать</string>
+    <string name="watch_thread_not_found">Не удалось удалить тему из списка наблюдения</string>
+    <string name="web_image_button_attach">Прикрепить</string>
+    <string name="web_image_button_download">Скачать</string>
+    <string name="web_image_download_first">Скачать изображение перед присоединением</string>
+    <string name="web_image_input_url_first">Введите URL для загрузки изображения</string>
+    <string name="web_image_key_download">Загрузить</string>
+    <string name="web_image_search_text_hint">искать текст</string>
+    <string name="web_image_search_title">Искать изображение в Интернете</string>
+    <string name="web_image_title">Прикрепить изображение с веб</string>
+    <string name="web_image_url_text_hint">URL-адрес изображения</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="1582509289994216078" name="white_balance">"Баланс белого"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="widget_configure_board">Отображать заголовок доски</string>
+    <string name="widget_configure_board_title_color">Цвет заголовка доски</string>
+    <string name="widget_configure_config">Отобразить кнопку настроек</string>
+    <string name="widget_configure_corners">Показать границы</string>
+    <string name="widget_configure_refresh">Отобразить кнопку обновления</string>
+    <string name="widget_configure_title">Настройки Chanu Widget</string>
+    <string name="widget_loading">Идет загрузка...</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="2161028964992385809" name="widget_type">"Тип виджета"</string>
+    <string msgid="3245149644830731121" name="widget_type_album">"Изображения из альбома"</string>
+    <string msgid="6267065337367795355" name="widget_type_photo">"Выберите изображение"</string>
+    <string msgid="8594622705019763768" name="widget_type_shuffle">"Перемешать все изображения"</string>
+    <string msgid="9215847239714321097" name="width">"Ширина"</string>
+    <string msgid="5402582493291792293" name="yes">"Да"</string>
+</resources>

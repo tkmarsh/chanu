@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/libs/actionBarPullToRefresh/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="ptr_content" type="id"/>
+    <item name="ptr_progress" type="id"/>
+    <item name="ptr_text" type="id"/>
+    <item name="ptr_text_opaque_bg" type="id"/>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/libs/actionBarPullToRefresh/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Chanu</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/libs/actionBarPullToRefresh/src/main/res/values/pull_refresh_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/libs/actionBarPullToRefresh/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Widget.Holo.ProgressBar.Horizontal.Center" parent="android:Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_center</item>
+    </style>
+</resources>

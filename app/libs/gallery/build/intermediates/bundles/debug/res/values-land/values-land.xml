@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/libs/gallery/src/main/res/values-land/dimensions.xml -->
+    <eat-comment/>
+    <dimen name="manage_cache_bottom_height">39dp</dimen>
+</resources>

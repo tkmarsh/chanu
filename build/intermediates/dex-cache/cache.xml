@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/notroot/Source Code/chanu/app/libs/commons-io-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7ffdb02f95af1c1a208544e076cea5b8e66e731a">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/commons-io-2.0.1-3e8a8c5fc767eab365db1ae49e9e44af94a88ca0.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/libs/commons-lang3-3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/commons-lang3-3.1-1d4d17c3b2218a53747e432e38f5b1de3d8a9766.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-51cd4a6549f58e06a1e3260fc5e0106afe4642a2.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-94972c3ce6008e4abc1fec71be2ba1a55c7e9e34.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09144b6f34a48d54fa47fc09f1053ba0d1fb7b2e">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/classes-098eb7274945e5f33b692775c8be7d1641298f6a.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/classes-3a0d48333e4ed6c5ef493f476cce53a31ba3dbb8.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-f7a51efac870b9b6ff41618c5613096e0b09381e.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/build/intermediates/exploded-aar/chanu/actionBarPullToRefresh/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f1558e8c029ea98cd3821b980a181e2d0ab6a10">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/classes-80ed1baeb342da9af2a5f3ff6d21a451061c43c6.jar" />
+    </item>
+    <item
+        jar="/home/notroot/Source Code/chanu/app/libs/jackson-all-1.8.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6a4fadac3d4567eb27c494b898ab8bf39d9c70ab">
+        <dex dex="/home/notroot/Source Code/chanu/app/build/intermediates/pre-dexed/debug/jackson-all-1.8.2-6cbc5c2df81a3c1233d4f5345b9e3a82a2371f63.jar" />
+    </item>
+
+</items>

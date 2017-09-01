@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-sw360dp/dimens.xml -->
+    <eat-comment/>
+    <bool name="narrow_tablet">true</bool>
+    <dimen name="ThreadListHeader_flowsize">48dp</dimen>
+    <dimen name="ThreadListHeader_paddingPlusLeft">64dp</dimen>
+    <dimen name="ThreadListItemBarOverflow_layout_width">32dp</dimen>
+    <dimen name="ThreadListItemReplyNum_marginLeft">48dp</dimen>
+    <dimen name="ThreadListItemReplyWrap_marginRight">32dp</dimen>
+    <integer name="PostReplyComment_minLines">6</integer>
+    <string name="list_item_ago_date_separator"> ~ </string>
+</resources>

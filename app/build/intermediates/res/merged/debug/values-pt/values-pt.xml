@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/arrays.xml -->
+    <eat-comment/>
+    <string-array name="block_types">
+        <item>@string/block_type_text</item>
+        <item>@string/block_type_trip</item>
+        <item>@string/pref_user_name</item>
+        <item>@string/pref_user_email</item>
+        <item>@string/block_type_id</item>
+        <item>@string/thread_activity</item>
+    </string-array>
+    <string-array name="font_sizes">
+        <item>@string/font_size_tiny</item>
+        <item>@string/font_size_small</item>
+        <item>@string/font_size_medium</item>
+        <item>@string/font_size_large</item>
+        <item>@string/font_size_huge</item>
+    </string-array>
+    <string-array name="long_drawer_array">
+        <item>@string/board_all_boards</item>
+        <item>@string/board_latest</item>
+        <item>@string/board_popular</item>
+    </string-array>
+    <string-array name="long_drawer_array_footer">
+        <item>@string/settings_menu</item>
+        <item>@string/send_feedback_menu</item>
+    </string-array>
+    <string-array name="pref_autoload_images_entries">
+        <item>@string/pref_autoload_images_nothumbs</item>
+        <item>@string/pref_autoload_images_never</item>
+        <item>@string/pref_autoload_images_always</item>
+        <item>@string/pref_theme_auto</item>
+    </string-array>
+    <string-array name="pref_autoload_images_entry_values">
+        <item>@string/pref_autoload_images_nothumbs_value</item>
+        <item>@string/pref_autoload_images_never_value</item>
+        <item>@string/pref_autoload_images_always_value</item>
+        <item>@string/pref_autoload_images_auto_value</item>
+    </string-array>
+    <string-array name="pref_download_images_entries">
+        <item>@string/pref_download_images_standard</item>
+        <item>@string/pref_download_images_all_in_chanu_folder</item>
+        <item>@string/pref_download_images_per_board</item>
+        <item>@string/pref_download_images_per_thread</item>
+    </string-array>
+    <string-array name="pref_download_images_entry_values">
+        <item>@string/pref_download_images_standard_value</item>
+        <item>@string/pref_download_images_all_in_chanu_folder_value</item>
+        <item>@string/pref_download_images_per_board_value</item>
+        <item>@string/pref_download_images_per_thread_value</item>
+    </string-array>
+    <string-array name="pref_theme_entries">
+        <item>@string/pref_theme_light</item>
+        <item>@string/pref_theme_dark</item>
+        <!-- <item>@string/pref_theme_auto</item> -->
+    </string-array>
+    <string-array name="pref_theme_entry_values">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+        <item>@string/pref_theme_auto_value</item>
+    </string-array>
+    <string-array name="report_post_types">
+        <item>@string/report_post_type_rule</item>
+        <item>@string/report_post_type_illegal</item>
+        <item>@string/report_post_type_spam</item>
+    </string-array>
+    <string-array name="sort_order_types">
+        <item>@string/sort_order_bump_order</item>
+        <item>@string/sort_order_reply_count</item>
+        <item>@string/sort_order_image_count</item>
+        <item>@string/sort_order_creation_date</item>
+    </string-array>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <plurals name="make_albums_available_offline">
+    <item msgid="2171596356101611086" quantity="one">"Disponibilizando álbum off-line."</item>
+    <item msgid="4948604338155959389" quantity="other">"Disponibilizando álbuns off-line."</item>
+  </plurals>
+    <plurals name="number_of_albums_selected">
+    <item msgid="749292746814788132" quantity="zero">"%1$d selecionado(s)"</item>
+    <item msgid="6184377003099987825" quantity="one">"%1$d selecionado(s)"</item>
+    <item msgid="53105607141906130" quantity="other">"%1$d selecionado(s)"</item>
+  </plurals>
+    <plurals name="number_of_groups_selected">
+    <item msgid="3466388370310869238" quantity="zero">"%1$d selecionado(s)"</item>
+    <item msgid="5030162638216034260" quantity="one">"%1$d selecionado(s)"</item>
+    <item msgid="3512041363942842738" quantity="other">"%1$d selecionado(s)"</item>
+  </plurals>
+    <plurals name="number_of_items_selected">
+    <item msgid="2142579311530586258" quantity="zero">"%1$d selecionado(s)"</item>
+    <item msgid="2478365152745637768" quantity="one">"%1$d selecionado(s)"</item>
+    <item msgid="754722656147810487" quantity="other">"%1$d selecionado(s)"</item>
+  </plurals>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/plurals.xml -->
+    <eat-comment/>
+    <plurals name="thread_activity_updated">
+        <item quantity="one">@string/plurals_thread_activity_udpdated_one</item>
+        <item quantity="other">@string/plurals_thread_actviity_updated_other</item>
+    </plurals>
+    <plurals name="thread_num_images_label">
+        <item quantity="one">@string/plurals_thread_num_images_label_one</item>
+        <item quantity="other">@string/plurals_thread_num_images_label_other</item>
+    </plurals>
+    <plurals name="thread_num_replies_label">
+        <item quantity="one">@string/plurals_thread_num_replies_label_one</item>
+        <item quantity="other">@string/plurals_thread_num_replies_label_other</item>
+    </plurals>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="3985447518557474672" name="Import">"Importar"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="about_activity">Sobre</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="5619154886080878023" name="activity_not_found">"Não há aplicativo disponível para concluir a ação."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="ad_upgrade">Atualizar para versão Pro</string>
+    <string name="ad_upgrade_sum">Apoiar desenvolvimentos e novos recursos</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4271217504968243974" name="add_account">"Adicionar conta"</string>
+    <string msgid="7320787705180057947" name="albums">"Álbuns"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="anime_image_search_menu">Pesquisar imagem no IQDB</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="5920657630303915195" name="aperture">"Abertura"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Chanu</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="1228925628357366957" name="appwidget_empty_text">"Nenhuma foto."</string>
+    <string msgid="6410561146863700411" name="appwidget_title">"Galeria de fotos"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="authorize_pass_cancelled">Autorização cancelada</string>
+    <string name="authorize_pass_error">Não foi possível autorizar</string>
+    <string name="authorize_pass_no_response">Não foi possível autorizar, sem resposta</string>
+    <string name="authorize_pass_successful">Autorizado</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4296941368722892821" name="auto">"Auto"</string>
+    <string msgid="1663414996270538748" name="autofix">"Correção autom."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="block_posts_menu">Bloquear post</string>
+    <string name="block_type_id">Id</string>
+    <string name="block_type_text">Texto</string>
+    <string name="block_type_trip">Tripcode</string>
+    <string name="blocklist_add_id_confirm">Adicionar %1$s%2$s %3$s à lista de bloqueios?</string>
+    <string name="blocklist_empty">A lista de bloqueio está vazia</string>
+    <string name="blocklist_no_types_found">Nenhum tripcode, nome, e-mail ou id bloqueável foram encontrados</string>
+    <string name="blocklist_select_type">Selecione o tipo de bloqueio</string>
+    <string name="blocklist_title">Lista de bloqueios</string>
+    <string name="blocklist_title_with_type">Lista de bloqueios de %1$s</string>
+    <string name="board_3">3DCG</string>
+    <string name="board_a">Anime &amp; Mangá</string>
+    <string name="board_activity">Seção</string>
+    <string name="board_add_to_favorites_menu">Adicionar aos Favoritos</string>
+    <string name="board_added_to_favorites">Seção favoritada</string>
+    <string name="board_adv">Conselhos</string>
+    <string name="board_all_boards">Todas as Seções</string>
+    <string name="board_an">Animais &amp; Natureza</string>
+    <string name="board_asp">Esportes alternativos</string>
+    <string name="board_b">Aleatório</string>
+    <string name="board_biz">Negócios e Finanças</string>
+    <string name="board_c">Anime/Fofo</string>
+    <string name="board_cgl">Cosplay &amp; EGL</string>
+    <string name="board_ck">Comida &amp; Cozinha</string>
+    <string name="board_cm">Atraente/Masculino</string>
+    <string name="board_co">HQs &amp; desenhos animados</string>
+    <string name="board_d">Hentai/Alternativo</string>
+    <string name="board_desc_3">Modelagem e imagens</string>
+    <string name="board_desc_a">Romances e vids</string>
+    <string name="board_desc_adv">Pede e receberás</string>
+    <string name="board_desc_an">Animais de estimação, plantas, cuddlies</string>
+    <string name="board_desc_asp">BMX, esqui, paraquedismo</string>
+    <string name="board_desc_b">Anarquistas anônimos</string>
+    <string name="board_desc_biz">Fique rico ou morra tentando</string>
+    <string name="board_desc_c">Waifus e outros</string>
+    <string name="board_desc_cgl">Trajes e lolita</string>
+    <string name="board_desc_ck">Receitas e utensílios de cozinha</string>
+    <string name="board_desc_cm">Mangá e anime masculino</string>
+    <string name="board_desc_co">Estilo ocidental</string>
+    <string name="board_desc_d">Escravidão e tentáculos</string>
+    <string name="board_desc_diy">Planos e projetos</string>
+    <string name="board_desc_e">Anime softcore feminino</string>
+    <string name="board_desc_fa">Armários e roupas</string>
+    <string name="board_desc_fit">Levantamento por ganhos</string>
+    <string name="board_desc_g">Geeks e gadgets</string>
+    <string name="board_desc_gd">Websites e logotipos</string>
+    <string name="board_desc_gif">Loops sem censura</string>
+    <string name="board_desc_h">Nudez e Sexo em Anime</string>
+    <string name="board_desc_hc">Ação ao vivo hardcore</string>
+    <string name="board_desc_hm">Softcore masculino</string>
+    <string name="board_desc_hr">Artwork e scans</string>
+    <string name="board_desc_i">Desenhos de aplicativos</string>
+    <string name="board_desc_ic">Poste, avalie e melhore</string>
+    <string name="board_desc_int">Cultura e linguagem</string>
+    <string name="board_desc_jp">Hello Kitty, J-pop</string>
+    <string name="board_desc_k">Armas e exército</string>
+    <string name="board_desc_lgbt">Lésbica, gay, bi, trans</string>
+    <string name="board_desc_lit">Livros e escrita</string>
+    <string name="board_desc_m">Robôs de combate humanóides</string>
+    <string name="board_desc_mlp">Paraíso pony</string>
+    <string name="board_desc_mu">Fãs, haters e áudio</string>
+    <string name="board_desc_n">Trens e bicicletas</string>
+    <string name="board_desc_o">Passeios e papo sobre carros</string>
+    <string name="board_desc_out">Caminhadas e acampamentos</string>
+    <string name="board_desc_p">Conteúdo e críticas</string>
+    <string name="board_desc_po">Dobramentos e recortes</string>
+    <string name="board_desc_pol">Política ao estilo 4chan</string>
+    <string name="board_desc_q">Modificações e recursos</string>
+    <string name="board_desc_r">Peça imagens e vídeos</string>
+    <string name="board_desc_r9k">Comunidade sem-repetições</string>
+    <string name="board_desc_s">Softcore feminino</string>
+    <string name="board_desc_s4s">Loucura patrocinada</string>
+    <string name="board_desc_sci">Paraíso nerd</string>
+    <string name="board_desc_soc">Ideais, avalie-me</string>
+    <string name="board_desc_sp">Equipes e esportes profissionais</string>
+    <string name="board_desc_t">Compartilhe links</string>
+    <string name="board_desc_tg">Quadros e roleplay</string>
+    <string name="board_desc_toy">Figuras e colecionáveis</string>
+    <string name="board_desc_trv">Viagens, aventuras</string>
+    <string name="board_desc_tv">Série e conjuntos</string>
+    <string name="board_desc_u">Anime lésbico</string>
+    <string name="board_desc_v">Jogos de console e PC</string>
+    <string name="board_desc_vg">Discussões de longa duração</string>
+    <string name="board_desc_vp">Treinamento, evolução</string>
+    <string name="board_desc_vr">Jogos pré-2000</string>
+    <string name="board_desc_w">Fotos de J-pop e anime</string>
+    <string name="board_desc_wg">Alta definição non-anime</string>
+    <string name="board_desc_wsg">Loops de humor</string>
+    <string name="board_desc_x">Aliens e espíritos</string>
+    <string name="board_desc_y">Anime homossexual</string>
+    <string name="board_diy">Faça você mesmo</string>
+    <string name="board_e">Ecchi</string>
+    <string name="board_empty_all_boards">Não foi possível carregar as seções</string>
+    <string name="board_empty_default">Não foi possível carregar a seção</string>
+    <string name="board_empty_favorites">Lista de favoritos vazia\n\nFavorite uma seção para adicioná-la aqui</string>
+    <string name="board_empty_images">Não foi possível carregar as últimas imagens</string>
+    <string name="board_empty_latest">Não foi possível carregar os últimos posts</string>
+    <string name="board_empty_popular">Não foi possível carregar os tópicos populares</string>
+    <string name="board_empty_watchlist">Lista de assinaturas vazia\n\nAssine um tópico para adicioná-lo aqui</string>
+    <string name="board_fa">Moda</string>
+    <string name="board_favorites">Seções favoritas</string>
+    <string name="board_fit">Fitness</string>
+    <string name="board_g">Tecnologia</string>
+    <string name="board_gd">Design gráfico</string>
+    <string name="board_gif">GIF Animado</string>
+    <string name="board_h">Hentai</string>
+    <string name="board_hc">Hardcore</string>
+    <string name="board_hm">Homens bonitos</string>
+    <string name="board_hr">Alta resolução</string>
+    <string name="board_i">Oekaki</string>
+    <string name="board_ic">Artwork/Crítica</string>
+    <string name="board_int">Internacional</string>
+    <string name="board_jp">Cultura Otaku</string>
+    <string name="board_k">Armas</string>
+    <string name="board_last_updated">Última atualização %s</string>
+    <string name="board_latest">Posts mais recentes</string>
+    <string name="board_latest_images">Últimas imagens</string>
+    <string name="board_lgbt">LGBT</string>
+    <string name="board_lit">Literatura</string>
+    <string name="board_m">Mecha</string>
+    <string name="board_mlp">Pônei</string>
+    <string name="board_mu">Música</string>
+    <string name="board_n">Transporte</string>
+    <string name="board_no_connection_load">Não é possível carregar a seção, sem conexão</string>
+    <string name="board_no_threads_selected">Não há tópicos selecionados</string>
+    <string name="board_not_added_to_favorites">Não foi possível favoritar a seção</string>
+    <string name="board_o">Automobilismo</string>
+    <string name="board_offline_refresh">Não é possível atualizar, sem rede disponível</string>
+    <string name="board_out">Ao ar livre</string>
+    <string name="board_p">Fotografia</string>
+    <string name="board_po">Papel &amp; Origami</string>
+    <string name="board_pol">Politicamente incorreto</string>
+    <string name="board_popular">Tópicos populares</string>
+    <string name="board_q">4chan Feedback</string>
+    <string name="board_r">Pedido</string>
+    <string name="board_r9k">ROBOT9001</string>
+    <string name="board_rules_header">Regras da seção</string>
+    <string name="board_rules_menu">Regras da seção</string>
+    <string name="board_s">Mulheres Sexy e Bonitas</string>
+    <string name="board_s4s">Merda que o 4Chan diz</string>
+    <string name="board_sci">Ciência &amp; Matemática</string>
+    <string name="board_search_no_results">Sem tópicos correspondentes à \"%1$s\"</string>
+    <string name="board_search_results">Tópicos correspondentes à \"%1$s\"</string>
+    <string name="board_select">Selecione a seção</string>
+    <string name="board_soc">Cams &amp; Encontros</string>
+    <string name="board_sp">Esportes</string>
+    <string name="board_t">Torrents</string>
+    <string name="board_tg">Jogos Tradicionais</string>
+    <string name="board_thread_gallery_menu">Galeria</string>
+    <string name="board_toy">Brinquedos</string>
+    <string name="board_trv">Viagens</string>
+    <string name="board_tv">Televisão &amp; Cinema</string>
+    <string name="board_type_adult">Adulto</string>
+    <string name="board_type_creative">Criatividade</string>
+    <string name="board_type_interests">Interesses</string>
+    <string name="board_type_japanese_culture">Cultura japonesa</string>
+    <string name="board_type_misc">Variados</string>
+    <string name="board_type_other">Outros</string>
+    <string name="board_u">Yuri</string>
+    <string name="board_v">Jogos</string>
+    <string name="board_vg">Jogos Gerais</string>
+    <string name="board_vp">Pokemon</string>
+    <string name="board_vr">Jogos Retrô</string>
+    <string name="board_w">Anime/Papéis de parede</string>
+    <string name="board_watch">Assinaturas</string>
+    <string name="board_wg">Papéis de parede/Geral</string>
+    <string name="board_wsg">GIF Worksafe</string>
+    <string name="board_x">Paranormal</string>
+    <string name="board_y">Yaoi</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4521059045896269095" name="caching_label">"Cache..."</string>
+    <string msgid="916021826223448591" name="camera_connected">"Câmera conectada."</string>
+    <string msgid="2100559901676329496" name="camera_disconnected">"Câmera desconectada."</string>
+    <string msgid="797463183863414289" name="camera_setas_wallpaper">"Plano de fundo"</string>
+    <string msgid="3637516880917356226" name="cancel">"Cancelar"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="cancel_download_message">Cancelar download de imagem?</string>
+    <string name="cancel_download_title">Download de imagem</string>
+    <string name="catalog_menu">Catálogo</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="6407959065464291972" name="click_import">"Toque aqui para importar"</string>
+    <string msgid="5585646033158453043" name="close">"Fechar"</string>
+    <string msgid="7358770022173660511" name="confirm_delete">"Excluir"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="connect_to_billing_msg">Conectando-se ao Google Play...</string>
+    <string name="copy_text">Copiar</string>
+    <string name="copy_text_complete">Texto copiado</string>
+    <string name="copy_text_menu">Copiar texto da postagem</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7598378507763334041" name="crop">"Cortar"</string>
+    <string msgid="3427470284074377001" name="crop_action">"Cortar"</string>
+    <string msgid="521114301871349328" name="crop_label">"Cortar imagem"</string>
+    <string msgid="3400773981839556" name="crop_not_saved">"A imagem cortada não foi salva."</string>
+    <string msgid="152200178986698300" name="crop_save_text">"OK"</string>
+    <string msgid="1062612625032731770" name="crop_saved">"A imagem cortada foi salva em Downloads."</string>
+    <string msgid="8794037869706891710" name="crop_tooltip">"Arraste os marcadores para cortar a foto"</string>
+    <string msgid="4173724489001742342" name="crossprocess">"Proc. cruzado"</string>
+    <string msgid="2839695998251824487" name="delete">"Excluir"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="delete_post_cancelled">Exclusão do post cancelada</string>
+    <string name="delete_post_deleting">Apagando o post...</string>
+    <string name="delete_post_deleting_image">Apagando a imagem do post...</string>
+    <string name="delete_post_enter_password">Digite uma senha para excluir</string>
+    <string name="delete_post_error">Não foi possível deletar o post</string>
+    <string name="delete_post_no_response">Não foi possível deletar o post, sem resposta</string>
+    <string name="delete_post_only_image">Excluir apenas a imagem?</string>
+    <string name="delete_post_password_hint">Senha para postar</string>
+    <string name="delete_post_response_error">Não foi possível excluir o post, resposta desconhecida</string>
+    <string name="delete_post_successful">Post excluído</string>
+    <string name="delete_post_successful_image">Imagem do post excluída</string>
+    <string name="delete_post_title">Excluir post</string>
+    <string name="delete_post_title_confirm">Senha para excluir</string>
+    <string name="delete_posts_menu">Excluir post</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="3016729318096557520" name="description">"Descrição"</string>
+    <string msgid="5758897506061723684" name="deselect_all">"Desmarcar tudo"</string>
+    <string msgid="8415120088556445230" name="details">"Detalhes"</string>
+    <string msgid="3215779248094151255" name="details_hms">"%1$d:%2$02d:%3$02d"</string>
+    <string msgid="940634969189855292" name="details_ms">"%1$02d:%2$02d"</string>
+    <string msgid="2611396603977441273" name="details_title">"%1$d de %2$d itens:"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="dialog_add">Adicionar</string>
+    <string name="dialog_added_to_watchlist">Assinado</string>
+    <string name="dialog_authorize">Autorizar</string>
+    <string name="dialog_authorizing_pass">Autorizando pass...</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_choose">Escolher</string>
+    <string name="dialog_clean">Limpo</string>
+    <string name="dialog_clean_watchlist">Limpar tópicos mortos?</string>
+    <string name="dialog_cleaned_watchlist">Lista de assinaturas limpa</string>
+    <string name="dialog_cleaning_watchlist">Limpando lista de assinaturas...</string>
+    <string name="dialog_clear">Limpar</string>
+    <string name="dialog_clear_cache_confirm">Limpar todos os dados de cache? Isso pode levar alguns minutos.</string>
+    <string name="dialog_clear_favorites">Limpar favoritos?</string>
+    <string name="dialog_clear_watchlist">Limpar assinaturas?</string>
+    <string name="dialog_cleared_watchlist">Lista de assinaturas limpa</string>
+    <string name="dialog_color_picker_title">Escolha uma cor</string>
+    <string name="dialog_delete">Excluir</string>
+    <string name="dialog_delete_favorites_board">Remover seção dos favoritos?</string>
+    <string name="dialog_delete_watchlist_thread">Remover tópico das assinaturas?</string>
+    <string name="dialog_deleted_from_watchlist">Removido</string>
+    <string name="dialog_logout_pass">Deslogando pass...</string>
+    <string name="dialog_posting_reply">Postando...</string>
+    <string name="dialog_remove">Remover</string>
+    <string name="dialog_report_post">Denunciar post</string>
+    <string name="dialog_reset_preferences">As preferências foram redefinidas para o padrão</string>
+    <string name="dialog_reset_preferences_confirm">Redefinir todas as preferências para o padrão?</string>
+    <string name="dialog_reset_title">Redefinir preferências para o padrão</string>
+    <string name="dialog_set">Definir</string>
+    <string name="dialog_set_wallpaper">Definir como papel de parede?</string>
+    <string name="dismiss">Fechar</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="50396326708699797" name="documentary">"Documentário"</string>
+    <string msgid="217672440064436595" name="done">"Concluído"</string>
+    <string msgid="1686409894518940990" name="doodle">"Doodle"</string>
+    <string msgid="2902117272374362915" name="doodle_tooltip">"Desenhe na foto para rabiscar"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="download_all_images_complete">Download completo</string>
+    <string name="download_all_images_complete_detail">/%1$s/%2$d salvo na galeria</string>
+    <string name="download_all_images_notice">Você será notificado quando o download terminar</string>
+    <string name="download_all_images_to_gallery_menu">Baixar imagens</string>
+    <string name="download_images_to_gallery_menu">Baixar imagem</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8145893940788467106" name="duotone">"Duotone"</string>
+    <string msgid="8160058911218541616" name="duration">"Duração"</string>
+    <string msgid="1502273844748580847" name="edit">"Editar"</string>
+    <string msgid="3777746536831799890" name="edited_photo_bucket_name">"Editado"</string>
+    <string msgid="4542880442593595494" name="empty_album">"0 imagens/vídeos disponíveis."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="exif">Dados EXIF</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="3990163680281058826" name="exposure_time">"Temp. exposiç."</string>
+    <string msgid="6205748523156172637" name="facelift">"Rosto iluminado"</string>
+    <string msgid="4412831806626044111" name="facetan">"Rosto bronzeado"</string>
+    <string msgid="8394392853646664505" name="fail_to_load">"Não foi possível carregar"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="favorites_cleared">Lista de favoritos limpa</string>
+    <string name="favorites_not_cleared">Não foi possível limpar os favoritos</string>
+    <string name="favorites_not_deleted_board">Não foi possível excluir a seção dos favoritos</string>
+    <string name="favorites_pick_board">Escolher seções favoritas</string>
+    <string name="favorites_remove_board_menu">Remover dos Favoritos</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8486169301588318915" name="file_size">"Tam. arquivo"</string>
+    <string msgid="2644989991700022526" name="filllight">"Luz de preench."</string>
+    <string msgid="6037488646928998921" name="fisheye">"Olho de peixe"</string>
+    <string msgid="2816779031261147723" name="flash">"Flash"</string>
+    <string msgid="1445443413822680010" name="flash_off">"Sem flash"</string>
+    <string msgid="7891556231891837284" name="flash_on">"Flash ativo"</string>
+    <string msgid="2357692401826287480" name="flip">"Inverter"</string>
+    <string msgid="2700943256714731737" name="flip_tooltip">"Arraste a foto para invertê-la"</string>
+    <string msgid="1291383769749877010" name="focal_length">"Comprimento focal"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="font_size_huge">Enorme</string>
+    <string name="font_size_large">Grande</string>
+    <string name="font_size_medium">Média</string>
+    <string name="font_size_menu">Tamanho da fonte</string>
+    <string name="font_size_small">Pequena</string>
+    <string name="font_size_tiny">Minúscula</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8766337315709161215" name="free_space_format">"<ns1:g id="BYTES">%s</ns1:g> gratuito"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="full_screen_image_search_error">Não foi possível procurar a imagem</string>
+    <string name="full_screen_image_search_not_found">Não foi possível encontrar imagem para busca</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="259405922673466798" name="gadget_title">"Moldura de uma imagem"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="global_rules_menu">Regras globais</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7487585304579789098" name="grain">"Granulado"</string>
+    <string msgid="7641563843060945228" name="grayscale">"P&amp;B"</string>
+    <string msgid="4308299657902209357" name="group_by">"Agrupar por"</string>
+    <string msgid="1532818636053818958" name="group_by_album">"Por álbum"</string>
+    <string msgid="1566351636227274906" name="group_by_faces">"Por pessoas"</string>
+    <string msgid="316641628989023253" name="group_by_location">"Por local"</string>
+    <string msgid="153766174950394155" name="group_by_size">"Por tamanho"</string>
+    <string msgid="3568731317210676160" name="group_by_tags">"Por tags"</string>
+    <string msgid="9046168567717963573" name="group_by_time">"Por tempo"</string>
+    <string msgid="3648885449443787772" name="height">"Altura"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="hide">Esconder</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="3902653944386623972" name="highlight">"Destaques"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="image_search_menu">Pesquisar imagem no Tineye</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="3875040287486199999" name="import_complete">"Importação concluída"</string>
+    <string msgid="8497942380703298808" name="import_fail">"Falha na importação"</string>
+    <string msgid="5028296664327335940" name="iso">"ISO"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="jump_menu">Pular</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7038208555304563571" name="loading">"Carregando..."</string>
+    <string msgid="928195413034552034" name="loading_account">"Carregando conta..."</string>
+    <string msgid="5990741970574295950" name="loading_failure">"Não foi possível carregar a foto"</string>
+    <string msgid="1200894415793838191" name="loading_image">"Carregando imagem…"</string>
+    <string msgid="4013492720121891585" name="loading_video">"Carregando vídeo..."</string>
+    <string msgid="3432705876921618314" name="location">"Local"</string>
+    <string msgid="6649297994083130305" name="locations">"Locais"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="logout_pass_cancelled">Logout do Pass foi cancelado</string>
+    <string name="logout_pass_error">Não foi possível sair</string>
+    <string name="logout_pass_no_response">Não foi possível sair, sem resposta</string>
+    <string name="logout_pass_successful">Logout do Pass foi feito com sucesso</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="1270032154357186736" name="lomoish">"Lomo"</string>
+    <string msgid="5157950985488297112" name="make_available_offline">"Tornar disponível off-line"</string>
+    <string msgid="7921835498034236197" name="maker">"Criador"</string>
+    <string msgid="6608905477477607865" name="manual">"Manual"</string>
+    <string msgid="8024168704337990470" name="mimetype">"Tipo MIME"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="mobile_profile_fetch_dead_thread">O tópico está morto</string>
+    <string name="mobile_profile_health_status">A rede %1$s não carregou</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8240207064064337366" name="model">"Modelo"</string>
+    <string msgid="3526526872644898229" name="movie_view_label">"Player de vídeo"</string>
+    <string msgid="2554690102655855657" name="multiface_crop_help">"Toque em um rosto para começar."</string>
+    <string msgid="1985508917342811252" name="negative">"Negativo"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="network_profile_health_bad">Conexão de Internet lenta</string>
+    <string name="new_thread_menu">Novo assunto</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="5595408018304861875" name="no">"Não"</string>
+    <string msgid="4111744447491690896" name="no_albums_alert">"Nenhum álbum disponível."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="no_connection_profile">Modo Offline</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7164037617297293668" name="no_connectivity">"Alguns locais não foram identificados por problemas na rede."</string>
+    <string msgid="4043624857489331676" name="no_location">"Nenhum local"</string>
+    <string msgid="5315144556325243400" name="no_such_item">"Não foi possível encontrar o item."</string>
+    <string msgid="284723185546429750" name="no_thumbnail">"Sem miniatura"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="offline_board_view_menu">Galeria de Seções</string>
+    <string name="offline_chan_view_menu">Galeria de todas as Seções</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4958327983165245513" name="orientation">"Orientação"</string>
+    <string msgid="4725740395885105824" name="path">"Caminho"</string>
+    <string msgid="4114003823747292747" name="people">"Pessoas"</string>
+    <string msgid="3494363661299484657" name="photo_saved">"Foto salva no álbum <ns1:g id="ALBUM_NAME">%s</ns1:g>"</string>
+    <string msgid="4738587346771969697" name="photoeditor_name">"Photo Studio"</string>
+    <string msgid="1497721615718760613" name="picasa_posts">"Postagens"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="play_thread_menu">Rolar tópico</string>
+    <string name="play_thread_stop_menu">Parar tópico</string>
+    <string name="plurals_thread_activity_udpdated_one">%1$d novo comentário</string>
+    <string name="plurals_thread_actviity_updated_other">%1$d novos comentários</string>
+    <string name="plurals_thread_num_images_label_one">IMAGEM</string>
+    <string name="plurals_thread_num_images_label_other">IMAGENS</string>
+    <string name="plurals_thread_num_replies_label_one">COMENTÁRIO</string>
+    <string name="plurals_thread_num_replies_label_other">COMENTÁRIOS</string>
+    <string name="post_reply_add_image">Adicione imagem para um novo tópico</string>
+    <string name="post_reply_add_text_or_image">Adicionar comentário ou imagem</string>
+    <string name="post_reply_added_image">Imagem adicionada ao post</string>
+    <string name="post_reply_all_menu">Responder</string>
+    <string name="post_reply_all_quote_menu">Resposta citada</string>
+    <string name="post_reply_board_requires_subject">Adicionar um assunto</string>
+    <string name="post_reply_cancelled">Post cancelado</string>
+    <string name="post_reply_captcha_error">Não foi possível carregar o captcha</string>
+    <string name="post_reply_delete_hint">Excluir imagem</string>
+    <string name="post_reply_email_hint">E-mail (opcional)</string>
+    <string name="post_reply_enter_captcha">Digite o captcha</string>
+    <string name="post_reply_error">Não foi possível postar</string>
+    <string name="post_reply_name_hint">Nome (opcional)</string>
+    <string name="post_reply_new_thread_error">Não foi possível postar o novo tópico</string>
+    <string name="post_reply_no_board">Não é possível postar, seção desconhecida</string>
+    <string name="post_reply_no_image">Não foi possível carregar a imagem</string>
+    <string name="post_reply_no_image_rotate">Não foi possível girar a imagem</string>
+    <string name="post_reply_no_load_gallery_image">Não foi possível carregar imagem da galeria</string>
+    <string name="post_reply_no_response">Não foi possível postar, sem resposta</string>
+    <string name="post_reply_pass_disable_menu">Deslogar do 4chan pass</string>
+    <string name="post_reply_pass_disabled_text">Deslogado do 4chan pass</string>
+    <string name="post_reply_pass_enable_menu">Autorizar 4chan pass</string>
+    <string name="post_reply_pass_enable_text">Pular o captcha com o 4chan pass</string>
+    <string name="post_reply_pass_enabled_text">Pulando captcha com o 4chan pass</string>
+    <string name="post_reply_pass_mobile_text">4chan Pass não está disponível nos dados móveis</string>
+    <string name="post_reply_pass_no_connection_text">Não é possível postar enquanto não houver conexão</string>
+    <string name="post_reply_password_hint">Senha (opcional)</string>
+    <string name="post_reply_password_info_detail">O password é um número aleatório que permite que você exclua seu post mais tarde.
+Esse número foi gerado para você, mas você pode mudá-lo se quiser.</string>
+    <string name="post_reply_password_info_hint">Informação de uso da senha</string>
+    <string name="post_reply_picture_menu">Adicionar imagem da galeria</string>
+    <string name="post_reply_posted_reply">Resposta postada</string>
+    <string name="post_reply_posted_thread">Novo tópico postado</string>
+    <string name="post_reply_recaptcha_hint">reCAPTCHA (obrigatório)</string>
+    <string name="post_reply_reload_captcha_hint">Recarregar o Captcha</string>
+    <string name="post_reply_response_error">Não foi possível postar, resposta desconhecida</string>
+    <string name="post_reply_sage_hint">Sage</string>
+    <string name="post_reply_search_hint">Buscar imagem</string>
+    <string name="post_reply_send">Enviar</string>
+    <string name="post_reply_share_error">Não foi possível compartilhar a imagem com Chanu</string>
+    <string name="post_reply_spoiler">Imagem spoiler</string>
+    <string name="post_reply_subject_hint">Assunto (opcional)</string>
+    <string name="post_reply_subject_hint_required">Assunto (obrigatório)</string>
+    <string name="post_reply_text_hint">Comentário (opcional)</string>
+    <string name="post_reply_text_hint_required">Comentário (obrigatório)</string>
+    <string name="post_reply_title">Postar resposta</string>
+    <string name="post_reply_web_menu">Adicionar imagem da web</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4139212359561383385" name="posterize">"Transf. em pôster"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="pref_about_application_category">Aplicativo</string>
+    <string name="pref_about_application_gplus">Visite-nos</string>
+    <string name="pref_about_application_gplus_sum">Junte-se a comunidade do Chanu no Google Plus</string>
+    <string name="pref_about_application_rate">Avalie-nos</string>
+    <string name="pref_about_application_rate_sum">Avaliar Chanu no Google Play</string>
+    <string name="pref_about_application_version">Versão %1$s</string>
+    <string name="pref_about_application_version_sum">Lançado %1$s</string>
+    <string name="pref_about_contact_us">Contate-nos</string>
+    <string name="pref_about_data_4chan_sum">Dados originados em tempo real via 4chan API</string>
+    <string name="pref_about_data_category">Utiliza</string>
+    <string name="pref_about_developer_category">Informações de compra</string>
+    <string name="pref_about_developer_chanapps">Chanapps Software</string>
+    <string name="pref_about_developer_chanapps_sum">Consulte nossas outras ofertas</string>
+    <string name="pref_about_send_email">Enviar e-mail</string>
+    <string name="pref_about_store_chanapps">Loja Chanapps</string>
+    <string name="pref_about_store_chanapps_sum">Compre uma camiseta Chanu</string>
+    <string name="pref_about_translations_category">Traduções</string>
+    <string name="pref_about_translations_de">Alemão</string>
+    <string name="pref_advanced_category">Avançado</string>
+    <string name="pref_advanced_category_summ">Modificar as configurações</string>
+    <string name="pref_autoload_images_always">Sempre</string>
+    <string name="pref_autoload_images_never">Nunca</string>
+    <string name="pref_autoload_images_nothumbs">Sem miniaturas</string>
+    <string name="pref_autoload_images_summary">Nunca, sempre, ou automático baseado na velocidade da conexão</string>
+    <string name="pref_autoload_images_title">Auto-carregar imagens do tópico</string>
+    <string name="pref_automatically_manage_watchlist">Auto-gerenciar assinaturas</string>
+    <string name="pref_automatically_manage_watchlist_summ_off">Adicionar e remover tópicos manualmente</string>
+    <string name="pref_automatically_manage_watchlist_summ_on">Adicionar e remover tópicos automaticamente</string>
+    <string name="pref_autoupdate_threads">Atualizar tópicos automáticamente</string>
+    <string name="pref_autoupdate_threads_summ_off">Não atualizar automaticamente os tópicos</string>
+    <string name="pref_autoupdate_threads_summ_on">Atualizar tópicos a cada 30 segundos</string>
+    <string name="pref_background_data">Dados em segundo plano</string>
+    <string name="pref_background_data_summ_off">Dados em segundo plano desabilitados quando em dados móveis</string>
+    <string name="pref_background_data_summ_on">Dados em segundo plano habilitados quando em dados móveis</string>
+    <string name="pref_blocklist_button_summ">Filtrar tópicos e mensagens</string>
+    <string name="pref_cache_category">Cache</string>
+    <string name="pref_cache_category_summ">Espaço a ser usado para armazenar imagens e tópicos</string>
+    <string name="pref_cache_size">Tamanho do cache</string>
+    <string name="pref_cache_size_summ">Ajustar o tamanho do cache</string>
+    <string name="pref_clean_watchlist">Remover tópicos mortos</string>
+    <string name="pref_clear_cache">Limpar Cache</string>
+    <string name="pref_clear_cache_already_running">O cache já está sendo limpo, você será notificado quando terminar</string>
+    <string name="pref_clear_cache_error">Não foi possível limpar o cache</string>
+    <string name="pref_clear_cache_notification_title">Status do cache Chanu</string>
+    <string name="pref_clear_cache_pre_execute">Limpando o cache, você será notificado quando terminar</string>
+    <string name="pref_clear_cache_pre_execute_no_notify">Limpar o cache, você receberá uma mensagem pop-up quando terminar</string>
+    <string name="pref_clear_cache_success">Cache limpo com sucesso</string>
+    <string name="pref_clear_cache_summ">Remover todos os dados armazenados em cache e imagens</string>
+    <string name="pref_clear_favorites">Limpar favoritos</string>
+    <string name="pref_clear_watchlist">Limpar lista de assinaturas</string>
+    <string name="pref_download_images_all_in_chanu_folder">Tudo na pasta \'Chanu\'</string>
+    <string name="pref_download_images_per_board">Por seção (eg. board_a)</string>
+    <string name="pref_download_images_per_thread">Por tópico (ex. a_1234567)</string>
+    <string name="pref_download_images_standard">Individuais em \"Chanu\",  por tópico em pasta espelho</string>
+    <string name="pref_download_images_summary">Define como as imagens são organizadas na galeria</string>
+    <string name="pref_download_images_title">Organizar imagens baixadas</string>
+    <string name="pref_download_location">Local do download</string>
+    <string name="pref_download_location_error">Não foi possível definir a pasta de downloads</string>
+    <string name="pref_download_location_set">Definir a pasta de downloads para %1$s</string>
+    <string name="pref_download_location_summ">Clique para alterar</string>
+    <string name="pref_download_nomedia">Esconder Downloads</string>
+    <string name="pref_download_nomedia_summ_off">Imagens baixadas são visíveis na Galeria</string>
+    <string name="pref_download_nomedia_summ_on">Imagens baixadas não são visíveis na Galeria</string>
+    <string name="pref_hide_last_replies">Esconder últimas respostas</string>
+    <string name="pref_hide_post_numbers">Número de posts</string>
+    <string name="pref_hide_post_numbers_summ_off">Número de posts são sempre mostrados</string>
+    <string name="pref_hide_post_numbers_summ_on">Número de posts estão ocultos exceto no /b/</string>
+    <string name="pref_hide_post_numbers_turn_off">Mostrar post no.</string>
+    <string name="pref_hide_post_numbers_turn_on">Ocultar post no.</string>
+    <string name="pref_notifications">Notificações</string>
+    <string name="pref_notifications_summ_off">Desativado</string>
+    <string name="pref_notifications_summ_on">Ativado</string>
+    <string name="pref_pass_category">4chan Pass</string>
+    <string name="pref_pass_category_summ">Token e PIN para pular o captcha</string>
+    <string name="pref_pass_enabled">Ativado</string>
+    <string name="pref_pass_enabled_summ_off">Passe deslogado</string>
+    <string name="pref_pass_enabled_summ_on">Usar o passe para pular o captcha</string>
+    <string name="pref_pass_pin">PIN</string>
+    <string name="pref_pass_pin_hint">Digite o PIN</string>
+    <string name="pref_pass_pin_invalid">PIN inválido</string>
+    <string name="pref_pass_pin_summ">Seu PIN de 6 caracteres do 4chan pass</string>
+    <string name="pref_pass_purchase_hint">Não tem um passe? Consiga um.</string>
+    <string name="pref_pass_token">Token</string>
+    <string name="pref_pass_token_hint">Insira o Token</string>
+    <string name="pref_pass_token_invalid">Token inválido</string>
+    <string name="pref_pass_token_summ">Seu token com 10 caracteres do 4chan pass</string>
+    <string name="pref_prokey_category">Prokey</string>
+    <string name="pref_reset_to_defaults">Redefinir</string>
+    <string name="pref_reset_to_defaults_summ">Restaurar todas as configurações para o padrão de fábrica</string>
+    <string name="pref_share_image_url">Compartilhar imagem via URL</string>
+    <string name="pref_share_image_url_summ_off">Compartilhar arquivo de imagem em vez de URL</string>
+    <string name="pref_share_image_url_summ_on">Compartilhar URL em vez de arquivo de imagem</string>
+    <string name="pref_show_nsfw_boards">Seções NSFW</string>
+    <string name="pref_show_nsfw_boards_summ_detail">Seções consideradas NSFW (não seguro para o trabalho) estão ocultas por padrão. Estas seções são moderadas, mas podem potencialmente conter material ofensivo. Se você é menor de 18 anos ou é ilegal visualizar conteúdo restrito em sua jurisdição, não marque este botão.</string>
+    <string name="pref_show_nsfw_boards_summ_message">Seções consideradas NSFW (não seguro para o trabalho) estão ocultas por padrão. Estas seções são moderadas, mas podem potencialmente conter material ofensivo. Você está proibido de ativar esta opção se você é menor de 18 anos ou é ilegal visualizar o conteúdo restrito em sua jurisdição.     </string>
+    <string name="pref_show_nsfw_boards_summ_neg">Desabilitar (padrão)</string>
+    <string name="pref_show_nsfw_boards_summ_off">Ocultando seções NSFW (padrão)</string>
+    <string name="pref_show_nsfw_boards_summ_on">Mostrando todas as seções</string>
+    <string name="pref_show_nsfw_boards_summ_pos">Habilitar</string>
+    <string name="pref_theme_auto">Automático</string>
+    <string name="pref_theme_dark">Escuro</string>
+    <string name="pref_theme_light">Claro</string>
+    <string name="pref_theme_summary">Claro, escuro, ou automático para seleção de luz ambiente</string>
+    <string name="pref_theme_title">Tema</string>
+    <string name="pref_use_abbrev_boards">Seções abreviadas</string>
+    <string name="pref_use_fast_scroll">Rolagem rápida</string>
+    <string name="pref_use_friendly_ids">Usar Ids amigáveis</string>
+    <string name="pref_use_friendly_ids_summ_off">Ids dos posts são deixados inalterados</string>
+    <string name="pref_use_friendly_ids_summ_on">Ids dos posts têm nomes legíveis</string>
+    <string name="pref_use_https">Segurança</string>
+    <string name="pref_use_https_summ_off">Não usar HTTPS para todas as conexões</string>
+    <string name="pref_use_https_summ_on">Usar HTTPS para todas as conexões</string>
+    <string name="pref_use_volume_scroll">Rolagem com os botões de volume</string>
+    <string name="pref_user_category">Informações do usuário</string>
+    <string name="pref_user_email">Email</string>
+    <string name="pref_user_email_summ">Usar como endereço de e-mail para postagem</string>
+    <string name="pref_user_name">Nome</string>
+    <string name="pref_user_name_summ">Usar como nome para postagem</string>
+    <string name="pref_user_password">Senha</string>
+    <string name="pref_user_password_summ">Use como senha para excluir</string>
+    <string name="pref_view_options">Opções de visualização</string>
+    <string name="pref_view_options_summ">Alterar a aparência</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8722939570307386071" name="process_caching_requests">"Processando solicitações de armazenamento em cache"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/actionBarPullToRefresh/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">Puxe para atualizar…</string>
+    <string name="pull_to_refresh_refreshing_label">A carregar…</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="purchase_error">Não foi possível realizar a compra, tente novamente mais tarde</string>
+    <string name="purchase_menu">Comprar</string>
+    <string name="purchase_success">Os anúncios foram desativados</string>
+    <string name="quote">Citar</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4958448806369928239" name="redeye">"Olhos vermelhos"</string>
+    <string msgid="9112774042113471358" name="redeye_tooltip">"Toque para remover olhos vermelhos"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="refresh_board_menu">Atualizar</string>
+    <string name="refresh_favorites">Atualizando seções em segundo plano...</string>
+    <string name="refresh_watchlist">Atualizando tópicos em segundo plano...</string>
+    <string name="report_post">Denunciar</string>
+    <string name="report_post_bug_warning">Devido à uma limitação do 4chan, apenas o post %1$s será denunciado</string>
+    <string name="report_post_cancelled">Denúncia do post cancelada</string>
+    <string name="report_post_error">Não foi possível denunciar o post</string>
+    <string name="report_post_no_response">Não foi possível denunciar o post, sem resposta</string>
+    <string name="report_post_reporting">Denunciando...</string>
+    <string name="report_post_select_type">Selecione um tipo de denúncia</string>
+    <string name="report_post_successful">Post denunciado</string>
+    <string name="report_post_title_type">Razão da denúncia</string>
+    <string name="report_post_type_illegal">Conteúdo ilegal</string>
+    <string name="report_post_type_rule">Violação de regra</string>
+    <string name="report_post_type_spam">Spam/publicidade comercial</string>
+    <string name="report_posts_menu">Denunciar post</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="5184414518126703481" name="resume_playing_message">"Retomar reprodução de %s ?"</string>
+    <string msgid="5471008499835769292" name="resume_playing_restart">"Reiniciar"</string>
+    <string msgid="3847915469173852416" name="resume_playing_resume">"Retomar a reprodução"</string>
+    <string msgid="8996677350649355013" name="resume_playing_title">"Retomar vídeo"</string>
+    <string msgid="6607597269792373083" name="rotate">"Girar"</string>
+    <string msgid="5888273317282539839" name="rotate_left">"Girar para a esquerda"</string>
+    <string msgid="6776325835923384839" name="rotate_right">"Girar para a direita"</string>
+    <string msgid="7008602969130734229" name="rotate_tooltip">"Arraste a foto para girá-la"</string>
+    <string msgid="8621322012271169931" name="saturation">"Saturação"</string>
+    <string msgid="5516670392524294967" name="save">"SALVAR"</string>
+    <string msgid="6857408774183654970" name="save_error">"Não é possível salvar a imagem cortada."</string>
+    <string msgid="3125109368779997862" name="save_photo">"Salvar foto editada?"</string>
+    <string msgid="8596600582621364077" name="saving_failure">"Não é possível salvar a foto"</string>
+    <string msgid="7270334453636349407" name="saving_image">"Salvando imagem…"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="scroll_to_bottom_menu">Pular para o final</string>
+    <string name="scroll_to_top_menu">Pular para o início</string>
+    <string name="search_hint">Digite o texto</string>
+    <string name="search_results_title">Resultados da pesquisa</string>
+    <string name="search_title">Buscar</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4632641262236697235" name="select_album">"Selecione álbuns"</string>
+    <string msgid="3403283025220282175" name="select_all">"Selecionar tudo"</string>
+    <string msgid="9090385962030340391" name="select_group">"Selecionar grupos"</string>
+    <string msgid="7841406150484742140" name="select_image">"Selecionar foto"</string>
+    <string msgid="2257529413100472599" name="select_item">"Selecione os itens"</string>
+    <string msgid="4859510992798615076" name="select_video">"Selecionar vídeo"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="send_feedback_menu">Enviar Feedback</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7978093531824705601" name="sepia">"Sépia"</string>
+    <string msgid="7235465319919457488" name="sequence_in_set">"%1$d de %2$d itens:"</string>
+    <string msgid="3636764710790507868" name="set_as">"Definir como"</string>
+    <string msgid="2331476809308010401" name="set_image">"Definir imagem como"</string>
+    <string msgid="4581863582996336783" name="set_label_all_albums">"Todos os álbuns"</string>
+    <string msgid="6698133661656266702" name="set_label_local_albums">"Álbuns locais"</string>
+    <string msgid="1283513183744896368" name="set_label_mtp_devices">"Dispositivos MTP"</string>
+    <string msgid="5356258354953935895" name="set_label_picasa_albums">"Álbuns do Picasa"</string>
+    <string msgid="1534847740615665736" name="settings">"Configurações"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="settings_menu">Configurações</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8235188588101973090" name="shadow">"Sombras"</string>
+    <string msgid="3619042788254195341" name="share">"Compartilhar"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="share_image">Compartilhar</string>
+    <string name="share_url">"Compartilhar URL"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="8449662378104403230" name="sharpen">"Aument. nitidez"</string>
+    <string msgid="4780647751652596980" name="show_all">"Imagens e vídeos"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="show_hidden_threads">Mostrar tópicos ocultos</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7263218480867672653" name="show_images_only">"Apenas imagens"</string>
+    <string msgid="6157544221201750980" name="show_on_map">"Mostrar no mapa"</string>
+    <string msgid="3850394623678871697" name="show_videos_only">"Somente vídeos"</string>
+    <string msgid="5324398253474104087" name="size_above">"<ns1:g id="SIZE">%1$s</ns1:g> ou mais"</string>
+    <string msgid="2074956730721942260" name="size_below">"<ns1:g id="SIZE">%1$s</ns1:g> ou menos"</string>
+    <string msgid="8779660840898917208" name="size_between">"<ns1:g id="MIN_SIZE">%1$s</ns1:g> para <ns1:g id="MAX_SIZE">%2$s</ns1:g>"</string>
+    <string msgid="4355906903247112975" name="slideshow">"Apresentação de slides"</string>
+    <string msgid="6915963319933437083" name="slideshow_dream_name">"Apresent. de slides"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="sort_order_bump_order">Ordem de bump</string>
+    <string name="sort_order_creation_date">Data de criação</string>
+    <string name="sort_order_image_count">Contagem de imagens</string>
+    <string name="sort_order_menu">Ordem de classificação</string>
+    <string name="sort_order_reply_count">Contagem de respostas</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="5217801513491493491" name="straighten">"Endireitar"</string>
+    <string msgid="4846317027139212339" name="straighten_tooltip">"Arraste a foto para endireitá-la"</string>
+    <string msgid="7280111806675169992" name="switch_to_camera">"Alternar para câmera"</string>
+    <string msgid="2218733298953719785" name="sync_album_error">"Falha ao fazer download das fotos neste álbum. Tente novamente mais tarde."</string>
+    <string msgid="9016732535181154028" name="sync_album_set_error">"Falha ao fazer download da lista de álbuns. Tente novamente mais tarde."</string>
+    <string msgid="8522572542111169872" name="sync_picasa_albums">"Atualizar"</string>
+    <string msgid="5539648765482935955" name="tags">"Etiquetas"</string>
+    <string msgid="1607987938521534517" name="temperature">"Calor"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="thread_activity">Tópico</string>
+    <string name="thread_added_to_watchlist">Tópico assinado</string>
+    <string name="thread_backlinks">Referências</string>
+    <string name="thread_closed">Não é possível atualizar, o tópico está fechado</string>
+    <string name="thread_context_select">Feito</string>
+    <string name="thread_couldnt_create_pager">Não foi possível criar a lista de tópicos</string>
+    <string name="thread_couldnt_download_image">Não foi possível baixar a imagem</string>
+    <string name="thread_country_flag">Bandeira do País</string>
+    <string name="thread_dead">Não é possível atualizar, o tópico está morto</string>
+    <string name="thread_deleted_from_watchlist">Tópico excluído das assinaturas</string>
+    <string name="thread_image_download_error">Erro ao baixar as imagens do tópico</string>
+    <string name="thread_is_closed">FECHADO</string>
+    <string name="thread_is_sticky">FIXO</string>
+    <string name="thread_no_posts_selected">Não há posts selecionados</string>
+    <string name="thread_no_start_play">Não é possível rolar, o tópico já está no fim</string>
+    <string name="thread_not_added_to_watchlist">Não foi possível assinar o tópico</string>
+    <string name="thread_not_found">Tópico não encontrado, mostrando primeiro tópico</string>
+    <string name="thread_post">Enviar</string>
+    <string name="thread_post_collapse_button">Reduzir</string>
+    <string name="thread_post_expand_button">Expandir</string>
+    <string name="thread_post_image">Imagem do tópico</string>
+    <string name="thread_post_image_expanded">Imagem expandida do tópico</string>
+    <string name="thread_replies">Respostas</string>
+    <string name="thread_same_id">Mesmo Id</string>
+    <string name="thread_search_no_results">Sem posts correspondentes à \"%1$s\"</string>
+    <string name="thread_search_results">Posts correspondentes à \"%1$s\"</string>
+    <string name="thread_watchlist_cleared">Lista de assinaturas limpa</string>
+    <string name="thread_watchlist_not_cleared">Não foi possível limpar as assinaturas</string>
+    <string name="thread_watchlist_not_deleted_thread">Não foi possível excluir o tópico das assinaturas</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="1367953006052876956" name="time">"Horário"</string>
+    <string msgid="2023033894889499219" name="times">"Vezes"</string>
+    <string msgid="154435943863418434" name="tint">"Tingir"</string>
+    <string msgid="7622928349908052569" name="title">"Título"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="translate">Traduzir post</string>
+    <string name="translate_no_text">Nenhum texto encontrado para traduzir</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="2184754031896160755" name="try_to_set_local_album_available_offline">"Este item está armazenado localmente e disponível off-line."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="tutorial_all">Chanu é um navegador para 4chan, um fórum de pessoas de todo o mundo que postam e discutem images.\n\nClique em uma seção para começar!</string>
+    <string name="tutorial_intro_desc">Bem-vindo</string>
+    <string name="undo">Desfazer</string>
+    <string name="undo_all">Desfazer tudo</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="1125768433254329136" name="unit_mm">"mm"</string>
+    <string msgid="7281481064509590402" name="untagged">"Sem tags"</string>
+    <string msgid="7003051631792271009" name="video_err">"Não é possível reproduzir o vídeo."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="view_as_grid_menu">Visualizar como grade</string>
+    <string name="view_as_list_menu">Visualizar como lista</string>
+    <string name="view_image_gallery_menu">Galeria de tópicos</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="7648125924662648282" name="vignette">"Vinheta"</string>
+    <string msgid="140165383777262070" name="wallpaper">"Definindo plano de fundo..."</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="watch_remove_thread_menu">Remover das assinaturas</string>
+    <string name="watch_thread_menu">Assinar</string>
+    <string name="watch_thread_not_found">Não foi possível remover o tópico das assinaturas</string>
+    <string name="web_image_button_attach">Anexar</string>
+    <string name="web_image_button_download">Baixar</string>
+    <string name="web_image_download_first">Baixar de imagem antes de anexar</string>
+    <string name="web_image_input_url_first">Digite a url para baixar a imagem</string>
+    <string name="web_image_key_download">Carregar</string>
+    <string name="web_image_search_text_hint">texto de busca</string>
+    <string name="web_image_search_title">Procurar imagem na Web</string>
+    <string name="web_image_title">Anexar imagem da Web</string>
+    <string name="web_image_url_text_hint">Url da imagem</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="1582509289994216078" name="white_balance">"Balanç. branco"</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="widget_configure_board">Mostrar título da Seção</string>
+    <string name="widget_configure_board_title_color">Cor do título da Seção</string>
+    <string name="widget_configure_config">Mostrar botão de configurar</string>
+    <string name="widget_configure_corners">Mostrar borda</string>
+    <string name="widget_configure_refresh">Mostrar botão de atualizar</string>
+    <string name="widget_configure_title">Configuração do widget Chanu</string>
+    <string name="widget_loading">Carregando...</string>
+    <!-- From: file:/home/notroot/Source%20Code/chanu/app/build/intermediates/exploded-aar/chanu/gallery/unspecified/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="2161028964992385809" name="widget_type">"Tipo de widget"</string>
+    <string msgid="3245149644830731121" name="widget_type_album">"Imagens de um álbum"</string>
+    <string msgid="6267065337367795355" name="widget_type_photo">"Selecionar uma imagem"</string>
+    <string msgid="8594622705019763768" name="widget_type_shuffle">"Reprod. aleator. as imagens"</string>
+    <string msgid="9215847239714321097" name="width">"Largura"</string>
+    <string msgid="5402582493291792293" name="yes">"Sim"</string>
+</resources>
