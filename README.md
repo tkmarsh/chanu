@@ -1,5 +1,6 @@
-Chanu - 4chan android app
+My personal slightly customised version of Chanu
 =========================
+## Just posting here so I don't lose it.
 
 [Design document](https://docs.google.com/document/d/1hYCqC_53iYZ7e13pbmbQ3PTtUat7xwBiH4uzGpat-gM/edit#heading=h.jbxv5gqhprjt)
 
